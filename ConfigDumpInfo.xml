@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="Catalog.Должности" id="89e93c49-b570-4cb2-9b70-16be9a52b3b1" configVersion="da38b081cba996498cc20bf8a148b8fa00000000"/>
+		<Metadata name="Catalog.Организации" id="79df58e7-1c1b-4e5a-a498-6cef78352c0b" configVersion="fc869e4b4ed6b042a67d90b73b1a501100000000">
+			<Metadata name="Catalog.Организации.Attribute.Руководитель" id="4435a191-b8c9-4ece-af3b-4150c426dddd"/>
+			<Metadata name="Catalog.Организации.Attribute.ГлавныйБухгалтер" id="56c29fae-73c0-46e1-b69f-2952449a3f2f"/>
+			<Metadata name="Catalog.Организации.Attribute.ТипОрганизации" id="711f8a03-91e8-4e9a-8776-c6923faf5ee5"/>
+			<Metadata name="Catalog.Организации.Attribute.ДолжностьРуководителя" id="db762e89-1179-45ad-8035-e1040c4d6baf"/>
+			<Metadata name="Catalog.Организации.Attribute.ИНН" id="edce8de9-2515-4587-804d-81408175ddbb"/>
+		</Metadata>
+		<Metadata name="Catalog.Сотрудники" id="1ffbaf82-d7e3-4491-9ece-4b9f275c74bb" configVersion="8e0bcda2bc3b6e469d85a2c4396e482300000000"/>
+		<Metadata name="Configuration.Конфигурация" id="201a32b8-dd4c-42bd-a005-301829951253" configVersion="c8f5f0f6c9c3174f82f2f57412eb182100000000"/>
+		<Metadata name="Enum.ТипыОрганизаций" id="4db3be4c-9963-4b3c-9afd-058621b7d812" configVersion="6a04a1ccbc6a064a9ce5975dffb0341300000000">
+			<Metadata name="Enum.ТипыОрганизаций.EnumValue.ИндивидуальныйПредприниматель" id="583d5abd-f70a-4de5-881d-ef42ea0f3ac0"/>
+			<Metadata name="Enum.ТипыОрганизаций.EnumValue.ЮридическоеЛицо" id="cf5bee4c-077a-4edf-9649-91eeede78614"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="41ea2d21-783e-4361-95f2-fcd13a1ae0ce" configVersion="0845bf431d49534baa5e950d1bbc1fe400000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
