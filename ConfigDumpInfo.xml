@@ -1,10 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
-		<Metadata name="Catalog.ДоговорыПоставщиков" id="a77c71eb-4f79-4706-824d-d5e67e6e9d9f" configVersion="2a14471a5c3b4749afa911b6ff2ad0a200000000"/>
+		<Metadata name="Catalog.ДоговорыПоставщиков" id="a77c71eb-4f79-4706-824d-d5e67e6e9d9f" configVersion="a35b197e1f48564fbeee45485684de6700000000">
+			<Metadata name="Catalog.ДоговорыПоставщиков.Attribute.Комментарий" id="01dc5024-cd5e-4146-8507-d0fdac930ec7"/>
+			<Metadata name="Catalog.ДоговорыПоставщиков.Attribute.НомерДоговораВнешний" id="4f2f2d56-debb-42ec-b7a3-acd85fdd3576"/>
+			<Metadata name="Catalog.ДоговорыПоставщиков.Attribute.СрокДействияДоговора" id="7359152c-1176-43dd-a130-bbd20c04fe70"/>
+			<Metadata name="Catalog.ДоговорыПоставщиков.Attribute.Бессрочный" id="86b4d97e-ab17-4301-a71e-1d2de97ec8de"/>
+			<Metadata name="Catalog.ДоговорыПоставщиков.Attribute.ДатаЗаключенияДоговора" id="ea8add0e-eefa-408c-ad29-8fbefe06f1be"/>
+		</Metadata>
 		<Metadata name="Catalog.Должности" id="89e93c49-b570-4cb2-9b70-16be9a52b3b1" configVersion="da38b081cba996498cc20bf8a148b8fa00000000"/>
 		<Metadata name="Catalog.ИсточникиПолученияИнформации" id="584250c0-391f-4d54-b83a-e8899f79667a" configVersion="d0bb8b468b49e2448ebee5282bce3e2400000000"/>
-		<Metadata name="Catalog.Контрагенты" id="e7e81629-48fd-47dd-9f88-a75febd2f435" configVersion="ba117be2ea084643832db9e37945912800000000">
+		<Metadata name="Catalog.Контрагенты" id="e7e81629-48fd-47dd-9f88-a75febd2f435" configVersion="939d36c203dea44fb33834607d89cd3e00000000">
 			<Metadata name="Catalog.Контрагенты.TabularSection.Питомцы.Attribute.ДатаРожденияПитомца" id="345f4953-cadd-49a0-afc0-f79c890ecdf0"/>
 			<Metadata name="Catalog.Контрагенты.Attribute.ДатаРождения" id="460580dd-b88d-48b6-bbca-4637a31ef660"/>
 			<Metadata name="Catalog.Контрагенты.Attribute.Комментарий" id="4dc262fa-bc4e-4b8a-b8ca-51bbee20d4bd"/>
@@ -18,6 +24,7 @@
 			<Metadata name="Catalog.Контрагенты.TabularSection.Питомцы.Attribute.ВидПитомца" id="96810396-dbbd-408a-a5f3-972c35fe35d2"/>
 			<Metadata name="Catalog.Контрагенты.Attribute.Источник" id="99d1a3b4-83e3-471e-9d85-2cfa350250c0"/>
 		</Metadata>
+		<Metadata name="Catalog.Контрагенты.Predefined" id="e7e81629-48fd-47dd-9f88-a75febd2f435.1c" configVersion="d701588ca7d49e43a8c5041f0fca6d0100000000"/>
 		<Metadata name="Catalog.Номенклатуры" id="048bf64f-22f6-4a7d-a9d5-81869e47803e" configVersion="aab52a9d38c3fe42a1cd0afd1767f67b00000000">
 			<Metadata name="Catalog.Номенклатуры.Attribute.ТипНоменклатуры" id="07611fe7-74a4-4ce5-a918-7fc9a8513c9c"/>
 		</Metadata>
