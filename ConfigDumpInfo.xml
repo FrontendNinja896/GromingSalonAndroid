@@ -9,8 +9,9 @@
 			<Metadata name="Catalog.Организации.Attribute.ДолжностьРуководителя" id="db762e89-1179-45ad-8035-e1040c4d6baf"/>
 			<Metadata name="Catalog.Организации.Attribute.ИНН" id="edce8de9-2515-4587-804d-81408175ddbb"/>
 		</Metadata>
+		<Metadata name="Catalog.Склады" id="bf0d071e-cfad-49ce-96be-ec4f09cd2be7" configVersion="baf8352d32410249b8f49659bf1b771300000000"/>
 		<Metadata name="Catalog.Сотрудники" id="1ffbaf82-d7e3-4491-9ece-4b9f275c74bb" configVersion="8e0bcda2bc3b6e469d85a2c4396e482300000000"/>
-		<Metadata name="Configuration.Конфигурация" id="201a32b8-dd4c-42bd-a005-301829951253" configVersion="c8f5f0f6c9c3174f82f2f57412eb182100000000"/>
+		<Metadata name="Configuration.Конфигурация" id="201a32b8-dd4c-42bd-a005-301829951253" configVersion="f39f2a68b8b7e24bbaa0883ea7fe8f8700000000"/>
 		<Metadata name="Enum.ТипыОрганизаций" id="4db3be4c-9963-4b3c-9afd-058621b7d812" configVersion="6a04a1ccbc6a064a9ce5975dffb0341300000000">
 			<Metadata name="Enum.ТипыОрганизаций.EnumValue.ИндивидуальныйПредприниматель" id="583d5abd-f70a-4de5-881d-ef42ea0f3ac0"/>
 			<Metadata name="Enum.ТипыОрганизаций.EnumValue.ЮридическоеЛицо" id="cf5bee4c-077a-4edf-9649-91eeede78614"/>

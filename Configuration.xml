@@ -248,6 +248,7 @@
 			<Catalog>Организации</Catalog>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Должности</Catalog>
+			<Catalog>Склады</Catalog>
 			<Enum>ТипыОрганизаций</Enum>
 		</ChildObjects>
 	</Configuration>
