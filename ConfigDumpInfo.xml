@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
+		<Metadata name="AccumulationRegister.Продажи" id="f9af9b37-c797-449e-bdea-ac808ffd15e4" configVersion="33826e3769b8554d8f48755c41ba9a5e00000000">
+			<Metadata name="AccumulationRegister.Продажи.Dimension.Сотрудник" id="54b10fa5-7750-4542-bcfe-0fe13d28af74"/>
+			<Metadata name="AccumulationRegister.Продажи.Resource.Сумма" id="6da4b711-7f92-4b8b-8881-bc57c6db7117"/>
+			<Metadata name="AccumulationRegister.Продажи.Dimension.Клиент" id="b997c93c-f31f-4f1c-a166-a9b982af4e69"/>
+			<Metadata name="AccumulationRegister.Продажи.Dimension.Номенклатура" id="e34c3913-d0d6-43e0-90fe-3741d2afabe2"/>
+		</Metadata>
 		<Metadata name="AccumulationRegister.ТоварыНаСкладах" id="fdde9b7a-8f50-4747-90eb-9a67b71a5bd6" configVersion="6476f7be0a90d44fb35c56534e04ab0c00000000">
 			<Metadata name="AccumulationRegister.ТоварыНаСкладах.Resource.Количество" id="3ea2a8cc-62da-40bb-a104-d60684e439bb"/>
 			<Metadata name="AccumulationRegister.ТоварыНаСкладах.Dimension.Номенклатура" id="bd9ebd4a-ecfd-45e4-b865-a4956748dc01"/>
@@ -56,7 +62,7 @@
 			<Metadata name="Catalog.Сотрудники.Attribute.КонтактныйТелефон" id="820f8f7d-9ad7-4ca0-8bce-02bc76429c5d"/>
 			<Metadata name="Catalog.Сотрудники.Attribute.Пол" id="9e9033d1-0e4f-4fac-b37a-ef2f2880d661"/>
 		</Metadata>
-		<Metadata name="Configuration.Конфигурация" id="201a32b8-dd4c-42bd-a005-301829951253" configVersion="2f8521c159736c449f749722debde7bd00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="201a32b8-dd4c-42bd-a005-301829951253" configVersion="e2a002b321f1524d877eb382fb8c2c7400000000"/>
 		<Metadata name="Configuration.Конфигурация.MainSectionCommandInterface" id="ebc240bc-c7e2-4854-98f6-3787e95ac3ba.9" configVersion="c6dea5179d8fb640ae4c6996aea784b900000000"/>
 		<Metadata name="DefinedType.Финансы" id="3d45c8bd-3d82-47b5-9256-243ece1ec7ef" configVersion="cbcdcca4cd2d654088b2ca80ee2ee43900000000"/>
 		<Metadata name="Document.ЗаписьКлиента" id="384d4072-89ef-4f8c-acbc-700ee19bc635" configVersion="ad4856cb84029c48af92f6c7879236ee00000000">
@@ -85,7 +91,7 @@
 			<Metadata name="Document.ПоступлениеТоваров.Attribute.СуммаДокумента" id="db235198-843d-4d26-80b3-b9ceb2ab60e0"/>
 		</Metadata>
 		<Metadata name="Document.ПоступлениеТоваров.ObjectModule" id="741dc7da-646e-4db2-931e-1049d8b5816d.0" configVersion="bbf715ebb093104e960fe126d56503f500000000"/>
-		<Metadata name="Document.РеализацияТоваровИУслуг" id="442a38b6-087e-40d5-876b-73b8cc30d5e4" configVersion="f9db1048892dfe4b91949f57eabd421b00000000">
+		<Metadata name="Document.РеализацияТоваровИУслуг" id="442a38b6-087e-40d5-876b-73b8cc30d5e4" configVersion="d6a129435bc7e8429264b5e31428497900000000">
 			<Metadata name="Document.РеализацияТоваровИУслуг.Attribute.Комментарий" id="1e85fa5a-1489-4ba6-a46d-b334e4873b53"/>
 			<Metadata name="Document.РеализацияТоваровИУслуг.Attribute.Основание" id="2f4cb964-5091-4b67-8f44-ed453aedd05b"/>
 			<Metadata name="Document.РеализацияТоваровИУслуг.Attribute.Ответственный" id="38748458-63e1-4837-9323-a38c3353a3e5"/>
