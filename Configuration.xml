@@ -252,10 +252,14 @@
 			<Catalog>ПородыПитомцев</Catalog>
 			<Catalog>Номенклатуры</Catalog>
 			<Catalog>Пользователи</Catalog>
+			<Catalog>Контрагенты</Catalog>
+			<Catalog>ИсточникиПолученияИнформации</Catalog>
+			<Catalog>ДоговорыПоставщиков</Catalog>
 			<Enum>ТипыОрганизаций</Enum>
 			<Enum>ВидыПитомцев</Enum>
 			<Enum>ТипыНоменклатур</Enum>
 			<Enum>ПолФизическогоЛица</Enum>
+			<Enum>ТипыКонтрагентов</Enum>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

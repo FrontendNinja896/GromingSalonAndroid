@@ -1,7 +1,23 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
+		<Metadata name="Catalog.ДоговорыПоставщиков" id="a77c71eb-4f79-4706-824d-d5e67e6e9d9f" configVersion="2a14471a5c3b4749afa911b6ff2ad0a200000000"/>
 		<Metadata name="Catalog.Должности" id="89e93c49-b570-4cb2-9b70-16be9a52b3b1" configVersion="da38b081cba996498cc20bf8a148b8fa00000000"/>
+		<Metadata name="Catalog.ИсточникиПолученияИнформации" id="584250c0-391f-4d54-b83a-e8899f79667a" configVersion="d0bb8b468b49e2448ebee5282bce3e2400000000"/>
+		<Metadata name="Catalog.Контрагенты" id="e7e81629-48fd-47dd-9f88-a75febd2f435" configVersion="ba117be2ea084643832db9e37945912800000000">
+			<Metadata name="Catalog.Контрагенты.TabularSection.Питомцы.Attribute.ДатаРожденияПитомца" id="345f4953-cadd-49a0-afc0-f79c890ecdf0"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.ДатаРождения" id="460580dd-b88d-48b6-bbca-4637a31ef660"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.Комментарий" id="4dc262fa-bc4e-4b8a-b8ca-51bbee20d4bd"/>
+			<Metadata name="Catalog.Контрагенты.TabularSection.Питомцы" id="52b9a089-37b8-4600-81da-3771c3bb14c8"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.ПолКлиента" id="536abb01-bd1f-4f22-9a48-6952b5e8fe1f"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.ОсновнойДоговор" id="5546ba95-3611-4f13-bd9b-a342fa5aa248"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.КонтактныйТелефон" id="5fc2ffc9-afe5-42b3-92b2-df164bd0abc0"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.ТипКонтрагента" id="6073e4bd-19de-452e-95b8-517e1ee14d50"/>
+			<Metadata name="Catalog.Контрагенты.TabularSection.Питомцы.Attribute.КличкаПитомца" id="7a380ee4-f0c3-4a1f-887f-5e149a8bb6b1"/>
+			<Metadata name="Catalog.Контрагенты.TabularSection.Питомцы.Attribute.ПородаПитомца" id="8103276b-e111-4319-969f-b3e2d5d30b2e"/>
+			<Metadata name="Catalog.Контрагенты.TabularSection.Питомцы.Attribute.ВидПитомца" id="96810396-dbbd-408a-a5f3-972c35fe35d2"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.Источник" id="99d1a3b4-83e3-471e-9d85-2cfa350250c0"/>
+		</Metadata>
 		<Metadata name="Catalog.Номенклатуры" id="048bf64f-22f6-4a7d-a9d5-81869e47803e" configVersion="aab52a9d38c3fe42a1cd0afd1767f67b00000000">
 			<Metadata name="Catalog.Номенклатуры.Attribute.ТипНоменклатуры" id="07611fe7-74a4-4ce5-a918-7fc9a8513c9c"/>
 		</Metadata>
@@ -28,7 +44,7 @@
 			<Metadata name="Catalog.Сотрудники.Attribute.КонтактныйТелефон" id="820f8f7d-9ad7-4ca0-8bce-02bc76429c5d"/>
 			<Metadata name="Catalog.Сотрудники.Attribute.Пол" id="9e9033d1-0e4f-4fac-b37a-ef2f2880d661"/>
 		</Metadata>
-		<Metadata name="Configuration.Конфигурация" id="201a32b8-dd4c-42bd-a005-301829951253" configVersion="59905c08b00c3f499d56d11e3cca74ab00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="201a32b8-dd4c-42bd-a005-301829951253" configVersion="0fdb831347ae1540ad72a78e9cffa84a00000000"/>
 		<Metadata name="Enum.ВидыПитомцев" id="f9a3fc4d-8b44-4854-b4af-32d2eff7e2ab" configVersion="1974172edc0a4d4ebf09edc128872bc000000000">
 			<Metadata name="Enum.ВидыПитомцев.EnumValue.Кошка" id="9d1459e5-5e60-46fd-9225-50ef876d0882"/>
 			<Metadata name="Enum.ВидыПитомцев.EnumValue.Собака" id="d818e413-690f-4b3b-9fc5-610acf6399d2"/>
@@ -36,6 +52,10 @@
 		<Metadata name="Enum.ПолФизическогоЛица" id="42482a16-4fc2-4271-a1c4-a2ed711a4d60" configVersion="ae8883e44653d4459695f68257a494b400000000">
 			<Metadata name="Enum.ПолФизическогоЛица.EnumValue.Женский" id="7556fa6b-3eb7-43d9-9717-1f87fd5f77ad"/>
 			<Metadata name="Enum.ПолФизическогоЛица.EnumValue.Мужской" id="98b2d490-15dc-497d-b3a8-3166d2085229"/>
+		</Metadata>
+		<Metadata name="Enum.ТипыКонтрагентов" id="b671ab61-d837-4bac-b9f3-8545a183f1c4" configVersion="2284f86e71d1eb41ae669e1d947e622c00000000">
+			<Metadata name="Enum.ТипыКонтрагентов.EnumValue.Поставщик" id="85a4aa4d-bf1c-4658-896f-bb596e51d9b0"/>
+			<Metadata name="Enum.ТипыКонтрагентов.EnumValue.Клиент" id="b36ea3f9-59f2-4355-a340-6403d9d1b3e2"/>
 		</Metadata>
 		<Metadata name="Enum.ТипыНоменклатур" id="b967c971-7234-4900-b819-ec0caff2773f" configVersion="548b6277ed68c947b1ded73a1a27137300000000">
 			<Metadata name="Enum.ТипыНоменклатур.EnumValue.Материал" id="0d2f2a2c-b79e-4c81-b2c9-a187434f8c36"/>
