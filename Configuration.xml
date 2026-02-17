@@ -249,7 +249,9 @@
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Должности</Catalog>
 			<Catalog>Склады</Catalog>
+			<Catalog>ПородыПитомцев</Catalog>
 			<Enum>ТипыОрганизаций</Enum>
+			<Enum>ВидыПитомцев</Enum>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
