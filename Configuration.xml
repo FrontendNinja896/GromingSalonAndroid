@@ -257,6 +257,7 @@
 			<Catalog>ИсточникиПолученияИнформации</Catalog>
 			<Catalog>ДоговорыПоставщиков</Catalog>
 			<Document>ЗаписьКлиента</Document>
+			<Document>РеализацияТоваровИУслуг</Document>
 			<Enum>ТипыОрганизаций</Enum>
 			<Enum>ВидыПитомцев</Enum>
 			<Enum>ТипыНоменклатур</Enum>
