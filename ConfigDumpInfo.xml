@@ -51,7 +51,7 @@
 			<Metadata name="Catalog.Сотрудники.Attribute.КонтактныйТелефон" id="820f8f7d-9ad7-4ca0-8bce-02bc76429c5d"/>
 			<Metadata name="Catalog.Сотрудники.Attribute.Пол" id="9e9033d1-0e4f-4fac-b37a-ef2f2880d661"/>
 		</Metadata>
-		<Metadata name="Configuration.Конфигурация" id="201a32b8-dd4c-42bd-a005-301829951253" configVersion="7b4e21510832d9428f382ecbd6c7847100000000"/>
+		<Metadata name="Configuration.Конфигурация" id="201a32b8-dd4c-42bd-a005-301829951253" configVersion="b3236605d2d54941b25ae44923f6008a00000000"/>
 		<Metadata name="DefinedType.Финансы" id="3d45c8bd-3d82-47b5-9256-243ece1ec7ef" configVersion="cbcdcca4cd2d654088b2ca80ee2ee43900000000"/>
 		<Metadata name="Document.ЗаписьКлиента" id="384d4072-89ef-4f8c-acbc-700ee19bc635" configVersion="ad4856cb84029c48af92f6c7879236ee00000000">
 			<Metadata name="Document.ЗаписьКлиента.TabularSection.Услуги.Attribute.Услуга" id="2aa05502-cdb1-44ea-b33f-8248f63c13f3"/>
@@ -62,6 +62,21 @@
 			<Metadata name="Document.ЗаписьКлиента.Attribute.Сотрудник" id="7bf28a51-bee0-4890-b245-6a49f1a235d9"/>
 			<Metadata name="Document.ЗаписьКлиента.Attribute.Клиент" id="91e596f3-177a-4018-aae5-b824eb9a066b"/>
 			<Metadata name="Document.ЗаписьКлиента.Attribute.ДатаЗаписи" id="d6cd3f32-11ac-43db-b1d0-bd8cba3310ff"/>
+		</Metadata>
+		<Metadata name="Document.ПоступлениеТоваров" id="741dc7da-646e-4db2-931e-1049d8b5816d" configVersion="135aecd875d18745b5636d286ff714f300000000">
+			<Metadata name="Document.ПоступлениеТоваров.Attribute.Комментарий" id="0352e57a-0c2e-48de-bb9e-62a86c845de8"/>
+			<Metadata name="Document.ПоступлениеТоваров.TabularSection.Товары.Attribute.Сумма" id="15a0d2fe-b510-4df0-b883-af2431e29e76"/>
+			<Metadata name="Document.ПоступлениеТоваров.Attribute.Ответственный" id="219b469a-a1d3-44b2-9ed8-a08266398a71"/>
+			<Metadata name="Document.ПоступлениеТоваров.Attribute.ВходящийНомер" id="2bce60de-c5d0-429b-9681-492f3b158ee2"/>
+			<Metadata name="Document.ПоступлениеТоваров.TabularSection.Товары" id="2d2196ae-fde5-4093-9875-b94f5be6baf8"/>
+			<Metadata name="Document.ПоступлениеТоваров.Attribute.Поставщик" id="2d8c995a-cf92-41af-a056-6d0f80a8f9ec"/>
+			<Metadata name="Document.ПоступлениеТоваров.TabularSection.Товары.Attribute.Количество" id="79088043-4711-4859-9a28-5ac0fe5fc51c"/>
+			<Metadata name="Document.ПоступлениеТоваров.Attribute.ДоговорПоставщика" id="884d812d-960f-4549-9f89-99afad5e041f"/>
+			<Metadata name="Document.ПоступлениеТоваров.TabularSection.Товары.Attribute.Цена" id="b2be699e-9f44-4f26-a125-6b0009d5e200"/>
+			<Metadata name="Document.ПоступлениеТоваров.TabularSection.Товары.Attribute.Товар" id="b977b1a0-0c8f-42ac-9b5b-5fa39a7014aa"/>
+			<Metadata name="Document.ПоступлениеТоваров.Attribute.Склад" id="d84bcb9f-3733-4e67-acf8-206eeec7ac38"/>
+			<Metadata name="Document.ПоступлениеТоваров.Attribute.ВходящаяДата" id="d941b300-ea47-43fc-8367-37e6900b9411"/>
+			<Metadata name="Document.ПоступлениеТоваров.Attribute.СуммаДокумента" id="db235198-843d-4d26-80b3-b9ceb2ab60e0"/>
 		</Metadata>
 		<Metadata name="Document.РеализацияТоваровИУслуг" id="442a38b6-087e-40d5-876b-73b8cc30d5e4" configVersion="a088352b4769c14b855f1e0241b1523400000000">
 			<Metadata name="Document.РеализацияТоваровИУслуг.Attribute.Комментарий" id="1e85fa5a-1489-4ba6-a46d-b334e4873b53"/>

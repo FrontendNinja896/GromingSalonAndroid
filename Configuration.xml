@@ -258,6 +258,7 @@
 			<Catalog>ДоговорыПоставщиков</Catalog>
 			<Document>ЗаписьКлиента</Document>
 			<Document>РеализацияТоваровИУслуг</Document>
+			<Document>ПоступлениеТоваров</Document>
 			<Enum>ТипыОрганизаций</Enum>
 			<Enum>ВидыПитомцев</Enum>
 			<Enum>ТипыНоменклатур</Enum>
