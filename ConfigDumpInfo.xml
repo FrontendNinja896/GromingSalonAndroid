@@ -18,11 +18,23 @@
 		</Metadata>
 		<Metadata name="Catalog.ПородыПитомцев.Predefined" id="622de4b4-af00-4fbe-aa1c-908ef8e5fa6b.1c" configVersion="1de87347b0c59949b30b7e35ceebda1000000000"/>
 		<Metadata name="Catalog.Склады" id="bf0d071e-cfad-49ce-96be-ec4f09cd2be7" configVersion="39cbb80602b9954c9f0a14c34f3ecf6e00000000"/>
-		<Metadata name="Catalog.Сотрудники" id="1ffbaf82-d7e3-4491-9ece-4b9f275c74bb" configVersion="8e0bcda2bc3b6e469d85a2c4396e482300000000"/>
-		<Metadata name="Configuration.Конфигурация" id="201a32b8-dd4c-42bd-a005-301829951253" configVersion="e5536ead8b40f34e931db650395d90c300000000"/>
+		<Metadata name="Catalog.Сотрудники" id="1ffbaf82-d7e3-4491-9ece-4b9f275c74bb" configVersion="efdb421260bb2a4cb1ac5588badefdd500000000">
+			<Metadata name="Catalog.Сотрудники.Attribute.Отчество" id="030953f5-0941-4479-a503-f4d91049a596"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.ДатаРождения" id="08988d6b-a5e1-41f3-9c1f-538133b990df"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Имя" id="21d872a2-ecd0-42ce-9bbe-a5d1784d744f"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Фамилия" id="2f14647d-322b-4e92-8405-1859ed1ae105"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Должность" id="4f9ab962-de52-4959-8849-a22d330eedb1"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.КонтактныйТелефон" id="820f8f7d-9ad7-4ca0-8bce-02bc76429c5d"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Пол" id="9e9033d1-0e4f-4fac-b37a-ef2f2880d661"/>
+		</Metadata>
+		<Metadata name="Configuration.Конфигурация" id="201a32b8-dd4c-42bd-a005-301829951253" configVersion="f528fd7b3bec2a4eb23247ea4f46538300000000"/>
 		<Metadata name="Enum.ВидыПитомцев" id="f9a3fc4d-8b44-4854-b4af-32d2eff7e2ab" configVersion="1974172edc0a4d4ebf09edc128872bc000000000">
 			<Metadata name="Enum.ВидыПитомцев.EnumValue.Кошка" id="9d1459e5-5e60-46fd-9225-50ef876d0882"/>
 			<Metadata name="Enum.ВидыПитомцев.EnumValue.Собака" id="d818e413-690f-4b3b-9fc5-610acf6399d2"/>
+		</Metadata>
+		<Metadata name="Enum.ПолФизическогоЛица" id="42482a16-4fc2-4271-a1c4-a2ed711a4d60" configVersion="ae8883e44653d4459695f68257a494b400000000">
+			<Metadata name="Enum.ПолФизическогоЛица.EnumValue.Женский" id="7556fa6b-3eb7-43d9-9717-1f87fd5f77ad"/>
+			<Metadata name="Enum.ПолФизическогоЛица.EnumValue.Мужской" id="98b2d490-15dc-497d-b3a8-3166d2085229"/>
 		</Metadata>
 		<Metadata name="Enum.ТипыНоменклатур" id="b967c971-7234-4900-b819-ec0caff2773f" configVersion="548b6277ed68c947b1ded73a1a27137300000000">
 			<Metadata name="Enum.ТипыНоменклатур.EnumValue.Материал" id="0d2f2a2c-b79e-4c81-b2c9-a187434f8c36"/>

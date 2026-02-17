@@ -254,6 +254,7 @@
 			<Enum>ТипыОрганизаций</Enum>
 			<Enum>ВидыПитомцев</Enum>
 			<Enum>ТипыНоменклатур</Enum>
+			<Enum>ПолФизическогоЛица</Enum>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
