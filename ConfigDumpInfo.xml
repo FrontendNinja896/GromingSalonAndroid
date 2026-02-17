@@ -13,6 +13,7 @@
 			<Metadata name="Catalog.Организации.Attribute.ДолжностьРуководителя" id="db762e89-1179-45ad-8035-e1040c4d6baf"/>
 			<Metadata name="Catalog.Организации.Attribute.ИНН" id="edce8de9-2515-4587-804d-81408175ddbb"/>
 		</Metadata>
+		<Metadata name="Catalog.Пользователи" id="5778bb77-c9d7-49c5-9282-c517f21a58af" configVersion="bf75eac3dfb6c9448fc8b2504740b40e00000000"/>
 		<Metadata name="Catalog.ПородыПитомцев" id="622de4b4-af00-4fbe-aa1c-908ef8e5fa6b" configVersion="3336c0512604e342800fca26c566914a00000000">
 			<Metadata name="Catalog.ПородыПитомцев.Attribute.ВидПитомца" id="cf624cb9-39e7-4ffe-9887-2ccb3a65924a"/>
 		</Metadata>
@@ -27,7 +28,7 @@
 			<Metadata name="Catalog.Сотрудники.Attribute.КонтактныйТелефон" id="820f8f7d-9ad7-4ca0-8bce-02bc76429c5d"/>
 			<Metadata name="Catalog.Сотрудники.Attribute.Пол" id="9e9033d1-0e4f-4fac-b37a-ef2f2880d661"/>
 		</Metadata>
-		<Metadata name="Configuration.Конфигурация" id="201a32b8-dd4c-42bd-a005-301829951253" configVersion="f528fd7b3bec2a4eb23247ea4f46538300000000"/>
+		<Metadata name="Configuration.Конфигурация" id="201a32b8-dd4c-42bd-a005-301829951253" configVersion="59905c08b00c3f499d56d11e3cca74ab00000000"/>
 		<Metadata name="Enum.ВидыПитомцев" id="f9a3fc4d-8b44-4854-b4af-32d2eff7e2ab" configVersion="1974172edc0a4d4ebf09edc128872bc000000000">
 			<Metadata name="Enum.ВидыПитомцев.EnumValue.Кошка" id="9d1459e5-5e60-46fd-9225-50ef876d0882"/>
 			<Metadata name="Enum.ВидыПитомцев.EnumValue.Собака" id="d818e413-690f-4b3b-9fc5-610acf6399d2"/>

@@ -251,6 +251,7 @@
 			<Catalog>Склады</Catalog>
 			<Catalog>ПородыПитомцев</Catalog>
 			<Catalog>Номенклатуры</Catalog>
+			<Catalog>Пользователи</Catalog>
 			<Enum>ТипыОрганизаций</Enum>
 			<Enum>ВидыПитомцев</Enum>
 			<Enum>ТипыНоменклатур</Enum>
