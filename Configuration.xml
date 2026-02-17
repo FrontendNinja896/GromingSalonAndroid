@@ -245,7 +245,10 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<FunctionalOption>СкладскойУчёт</FunctionalOption>
 			<DefinedType>Финансы</DefinedType>
+			<Constant>ИспользоватьСклады</Constant>
+			<CommonForm>СкладскойУчёт</CommonForm>
 			<Catalog>Организации</Catalog>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Должности</Catalog>
