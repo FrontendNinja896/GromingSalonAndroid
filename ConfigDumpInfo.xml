@@ -2,6 +2,10 @@
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
 		<Metadata name="Catalog.Должности" id="89e93c49-b570-4cb2-9b70-16be9a52b3b1" configVersion="da38b081cba996498cc20bf8a148b8fa00000000"/>
+		<Metadata name="Catalog.Номенклатуры" id="048bf64f-22f6-4a7d-a9d5-81869e47803e" configVersion="aab52a9d38c3fe42a1cd0afd1767f67b00000000">
+			<Metadata name="Catalog.Номенклатуры.Attribute.ТипНоменклатуры" id="07611fe7-74a4-4ce5-a918-7fc9a8513c9c"/>
+		</Metadata>
+		<Metadata name="Catalog.Номенклатуры.Predefined" id="048bf64f-22f6-4a7d-a9d5-81869e47803e.1c" configVersion="3339331651926b45b2b58af0791ffba400000000"/>
 		<Metadata name="Catalog.Организации" id="79df58e7-1c1b-4e5a-a498-6cef78352c0b" configVersion="fc869e4b4ed6b042a67d90b73b1a501100000000">
 			<Metadata name="Catalog.Организации.Attribute.Руководитель" id="4435a191-b8c9-4ece-af3b-4150c426dddd"/>
 			<Metadata name="Catalog.Организации.Attribute.ГлавныйБухгалтер" id="56c29fae-73c0-46e1-b69f-2952449a3f2f"/>
@@ -15,10 +19,15 @@
 		<Metadata name="Catalog.ПородыПитомцев.Predefined" id="622de4b4-af00-4fbe-aa1c-908ef8e5fa6b.1c" configVersion="1de87347b0c59949b30b7e35ceebda1000000000"/>
 		<Metadata name="Catalog.Склады" id="bf0d071e-cfad-49ce-96be-ec4f09cd2be7" configVersion="39cbb80602b9954c9f0a14c34f3ecf6e00000000"/>
 		<Metadata name="Catalog.Сотрудники" id="1ffbaf82-d7e3-4491-9ece-4b9f275c74bb" configVersion="8e0bcda2bc3b6e469d85a2c4396e482300000000"/>
-		<Metadata name="Configuration.Конфигурация" id="201a32b8-dd4c-42bd-a005-301829951253" configVersion="e80f87f7205d12439c182979a906404b00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="201a32b8-dd4c-42bd-a005-301829951253" configVersion="e5536ead8b40f34e931db650395d90c300000000"/>
 		<Metadata name="Enum.ВидыПитомцев" id="f9a3fc4d-8b44-4854-b4af-32d2eff7e2ab" configVersion="1974172edc0a4d4ebf09edc128872bc000000000">
 			<Metadata name="Enum.ВидыПитомцев.EnumValue.Кошка" id="9d1459e5-5e60-46fd-9225-50ef876d0882"/>
 			<Metadata name="Enum.ВидыПитомцев.EnumValue.Собака" id="d818e413-690f-4b3b-9fc5-610acf6399d2"/>
+		</Metadata>
+		<Metadata name="Enum.ТипыНоменклатур" id="b967c971-7234-4900-b819-ec0caff2773f" configVersion="548b6277ed68c947b1ded73a1a27137300000000">
+			<Metadata name="Enum.ТипыНоменклатур.EnumValue.Материал" id="0d2f2a2c-b79e-4c81-b2c9-a187434f8c36"/>
+			<Metadata name="Enum.ТипыНоменклатур.EnumValue.Услуга" id="3fc36dd4-a5ee-4a8f-92a6-e02ecec25f3e"/>
+			<Metadata name="Enum.ТипыНоменклатур.EnumValue.Товар" id="596bdadb-ecec-427c-8a0c-0d200f9864d5"/>
 		</Metadata>
 		<Metadata name="Enum.ТипыОрганизаций" id="4db3be4c-9963-4b3c-9afd-058621b7d812" configVersion="6a04a1ccbc6a064a9ce5975dffb0341300000000">
 			<Metadata name="Enum.ТипыОрганизаций.EnumValue.ИндивидуальныйПредприниматель" id="583d5abd-f70a-4de5-881d-ef42ea0f3ac0"/>

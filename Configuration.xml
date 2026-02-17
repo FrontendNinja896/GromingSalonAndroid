@@ -250,8 +250,10 @@
 			<Catalog>Должности</Catalog>
 			<Catalog>Склады</Catalog>
 			<Catalog>ПородыПитомцев</Catalog>
+			<Catalog>Номенклатуры</Catalog>
 			<Enum>ТипыОрганизаций</Enum>
 			<Enum>ВидыПитомцев</Enum>
+			<Enum>ТипыНоменклатур</Enum>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
