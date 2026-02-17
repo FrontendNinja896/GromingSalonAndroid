@@ -245,6 +245,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<DefinedType>Финансы</DefinedType>
 			<Catalog>Организации</Catalog>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Должности</Catalog>
@@ -255,6 +256,7 @@
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>ИсточникиПолученияИнформации</Catalog>
 			<Catalog>ДоговорыПоставщиков</Catalog>
+			<Document>ЗаписьКлиента</Document>
 			<Enum>ТипыОрганизаций</Enum>
 			<Enum>ВидыПитомцев</Enum>
 			<Enum>ТипыНоменклатур</Enum>

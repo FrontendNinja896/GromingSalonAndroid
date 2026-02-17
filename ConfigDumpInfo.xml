@@ -51,7 +51,18 @@
 			<Metadata name="Catalog.Сотрудники.Attribute.КонтактныйТелефон" id="820f8f7d-9ad7-4ca0-8bce-02bc76429c5d"/>
 			<Metadata name="Catalog.Сотрудники.Attribute.Пол" id="9e9033d1-0e4f-4fac-b37a-ef2f2880d661"/>
 		</Metadata>
-		<Metadata name="Configuration.Конфигурация" id="201a32b8-dd4c-42bd-a005-301829951253" configVersion="0fdb831347ae1540ad72a78e9cffa84a00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="201a32b8-dd4c-42bd-a005-301829951253" configVersion="c91e33ac6b7c7b4cadbf1ea269a49e1100000000"/>
+		<Metadata name="DefinedType.Финансы" id="3d45c8bd-3d82-47b5-9256-243ece1ec7ef" configVersion="cbcdcca4cd2d654088b2ca80ee2ee43900000000"/>
+		<Metadata name="Document.ЗаписьКлиента" id="384d4072-89ef-4f8c-acbc-700ee19bc635" configVersion="ad4856cb84029c48af92f6c7879236ee00000000">
+			<Metadata name="Document.ЗаписьКлиента.TabularSection.Услуги.Attribute.Услуга" id="2aa05502-cdb1-44ea-b33f-8248f63c13f3"/>
+			<Metadata name="Document.ЗаписьКлиента.TabularSection.Услуги.Attribute.Стоимость" id="2e06943e-12f3-4468-b3ce-b032ee2bbd20"/>
+			<Metadata name="Document.ЗаписьКлиента.Attribute.Комментарий" id="3177f184-e8f4-4495-9ccb-b7a2e86f2423"/>
+			<Metadata name="Document.ЗаписьКлиента.TabularSection.Услуги" id="35e9ea03-7fc9-4992-9c70-23803da445bb"/>
+			<Metadata name="Document.ЗаписьКлиента.Attribute.Ответственный" id="70dcb894-27c9-4c32-82be-820a8e5d5430"/>
+			<Metadata name="Document.ЗаписьКлиента.Attribute.Сотрудник" id="7bf28a51-bee0-4890-b245-6a49f1a235d9"/>
+			<Metadata name="Document.ЗаписьКлиента.Attribute.Клиент" id="91e596f3-177a-4018-aae5-b824eb9a066b"/>
+			<Metadata name="Document.ЗаписьКлиента.Attribute.ДатаЗаписи" id="d6cd3f32-11ac-43db-b1d0-bd8cba3310ff"/>
+		</Metadata>
 		<Metadata name="Enum.ВидыПитомцев" id="f9a3fc4d-8b44-4854-b4af-32d2eff7e2ab" configVersion="1974172edc0a4d4ebf09edc128872bc000000000">
 			<Metadata name="Enum.ВидыПитомцев.EnumValue.Кошка" id="9d1459e5-5e60-46fd-9225-50ef876d0882"/>
 			<Metadata name="Enum.ВидыПитомцев.EnumValue.Собака" id="d818e413-690f-4b3b-9fc5-610acf6399d2"/>
