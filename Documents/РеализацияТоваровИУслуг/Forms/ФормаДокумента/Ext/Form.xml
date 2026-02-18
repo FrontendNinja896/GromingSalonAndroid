@@ -60,13 +60,6 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ВтораяГруппаРасширеннаяПодсказка" id="87"/>
 			<ChildItems>
-				<InputField name="Основание" id="7">
-					<DataPath>Объект.Основание</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ОснованиеКонтекстноеМеню" id="8"/>
-					<ExtendedTooltip name="ОснованиеРасширеннаяПодсказка" id="9"/>
-				</InputField>
 				<InputField name="Клиент" id="10">
 					<DataPath>Объект.Клиент</DataPath>
 					<EditMode>EnterOnInput</EditMode>
@@ -88,6 +81,13 @@
 					<ContextMenu name="СкладКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="18"/>
 				</InputField>
+				<LabelField name="Основание" id="7">
+					<DataPath>Объект.Основание</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<Hiperlink>true</Hiperlink>
+					<ContextMenu name="ОснованиеКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ОснованиеРасширеннаяПодсказка" id="9"/>
+				</LabelField>
 			</ChildItems>
 		</UsualGroup>
 		<Pages name="Страницы" id="28">
@@ -280,6 +280,7 @@
 			<ChildItems>
 				<InputField name="СуммаДокумента" id="19">
 					<DataPath>Объект.СуммаДокумента</DataPath>
+					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="СуммаДокументаКонтекстноеМеню" id="20"/>
