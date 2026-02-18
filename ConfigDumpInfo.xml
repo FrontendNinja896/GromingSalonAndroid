@@ -52,9 +52,11 @@
 		<Metadata name="Catalog.Организации.Form.ФормаСписка" id="10ca1bf7-b34a-4cfe-a52a-024680d14202" configVersion="1a1448b2228b7044a85dfd4c5041011300000000"/>
 		<Metadata name="Catalog.Организации.Form.ФормаСписка.Form" id="10ca1bf7-b34a-4cfe-a52a-024680d14202.0" configVersion="1bba1d45980bab458705ed9b7b85a51f00000000"/>
 		<Metadata name="Catalog.Пользователи" id="5778bb77-c9d7-49c5-9282-c517f21a58af" configVersion="bf75eac3dfb6c9448fc8b2504740b40e00000000"/>
-		<Metadata name="Catalog.ПородыПитомцев" id="622de4b4-af00-4fbe-aa1c-908ef8e5fa6b" configVersion="4886d03ada62c84fa97150390fa1fe0f00000000">
+		<Metadata name="Catalog.ПородыПитомцев" id="622de4b4-af00-4fbe-aa1c-908ef8e5fa6b" configVersion="081bcefb0a0245488501e0a15326fdbc00000000">
 			<Metadata name="Catalog.ПородыПитомцев.Attribute.ВидПитомца" id="cf624cb9-39e7-4ffe-9887-2ccb3a65924a"/>
 		</Metadata>
+		<Metadata name="Catalog.ПородыПитомцев.Form.ФормаЭлемента" id="c57d8c57-12ac-4389-aaa8-d54dadb441ea" configVersion="cfb5e5c12611934fb0ff0bd246fc221800000000"/>
+		<Metadata name="Catalog.ПородыПитомцев.Form.ФормаЭлемента.Form" id="c57d8c57-12ac-4389-aaa8-d54dadb441ea.0" configVersion="8a2f78240c2ffe43a6bf122ed9ae3a6a00000000"/>
 		<Metadata name="Catalog.ПородыПитомцев.Predefined" id="622de4b4-af00-4fbe-aa1c-908ef8e5fa6b.1c" configVersion="1de87347b0c59949b30b7e35ceebda1000000000"/>
 		<Metadata name="Catalog.Склады" id="bf0d071e-cfad-49ce-96be-ec4f09cd2be7" configVersion="2d85db3e59a9d940aa7b97198f9d397400000000"/>
 		<Metadata name="Catalog.Сотрудники" id="1ffbaf82-d7e3-4491-9ece-4b9f275c74bb" configVersion="efdb421260bb2a4cb1ac5588badefdd500000000">
