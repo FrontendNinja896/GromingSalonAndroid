@@ -7,83 +7,182 @@
 		<Event name="OnOpen">ПриОткрытии</Event>
 	</Events>
 	<ChildItems>
-		<RadioButtonField name="ТипКонтрагента" id="10">
-			<DataPath>Объект.ТипКонтрагента</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<RadioButtonType>Tumbler</RadioButtonType>
-			<ChoiceList>
-				<xr:Item>
-					<xr:Presentation/>
-					<xr:CheckState>0</xr:CheckState>
-					<xr:Value xsi:type="FormChoiceListDesTimeValue">
-						<Presentation/>
-						<Value xsi:type="xr:DesignTimeRef">Enum.ТипыКонтрагентов.EnumValue.Клиент</Value>
-					</xr:Value>
-				</xr:Item>
-				<xr:Item>
-					<xr:Presentation/>
-					<xr:CheckState>0</xr:CheckState>
-					<xr:Value xsi:type="FormChoiceListDesTimeValue">
-						<Presentation/>
-						<Value xsi:type="xr:DesignTimeRef">Enum.ТипыКонтрагентов.EnumValue.Поставщик</Value>
-					</xr:Value>
-				</xr:Item>
-			</ChoiceList>
-			<ContextMenu name="ТипКонтрагентаКонтекстноеМеню" id="11"/>
-			<ExtendedTooltip name="ТипКонтрагентаРасширеннаяПодсказка" id="12"/>
-			<Events>
-				<Event name="OnChange">ТипКонтрагентаПриИзменении</Event>
-			</Events>
-		</RadioButtonField>
-		<InputField name="Код" id="1">
-			<DataPath>Объект.Code</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
-			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
-		</InputField>
-		<InputField name="Наименование" id="4">
-			<DataPath>Объект.Description</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
-			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
-		</InputField>
-		<InputField name="КонтактныйТелефон" id="13">
-			<DataPath>Объект.КонтактныйТелефон</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="КонтактныйТелефонКонтекстноеМеню" id="14"/>
-			<ExtendedTooltip name="КонтактныйТелефонРасширеннаяПодсказка" id="15"/>
-		</InputField>
-		<InputField name="ДатаРождения" id="16">
-			<DataPath>Объект.ДатаРождения</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ДатаРожденияКонтекстноеМеню" id="17"/>
-			<ExtendedTooltip name="ДатаРожденияРасширеннаяПодсказка" id="18"/>
-		</InputField>
-		<InputField name="ПолКлиента" id="19">
-			<DataPath>Объект.ПолКлиента</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ПолКлиентаКонтекстноеМеню" id="20"/>
-			<ExtendedTooltip name="ПолКлиентаРасширеннаяПодсказка" id="21"/>
-		</InputField>
-		<InputField name="Источник" id="22">
-			<DataPath>Объект.Источник</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ИсточникКонтекстноеМеню" id="23"/>
-			<ExtendedTooltip name="ИсточникРасширеннаяПодсказка" id="24"/>
-		</InputField>
-		<InputField name="ОсновнойДоговор" id="25">
-			<DataPath>Объект.ОсновнойДоговор</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ОсновнойДоговорКонтекстноеМеню" id="26"/>
-			<ExtendedTooltip name="ОсновнойДоговорРасширеннаяПодсказка" id="27"/>
-		</InputField>
+		<UsualGroup name="ПерваяГруппа" id="59">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Первая группа</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Первая группа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ПерваяГруппаРасширеннаяПодсказка" id="60"/>
+			<ChildItems>
+				<RadioButtonField name="ТипКонтрагента" id="10">
+					<DataPath>Объект.ТипКонтрагента</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<RadioButtonType>Tumbler</RadioButtonType>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xr:DesignTimeRef">Enum.ТипыКонтрагентов.EnumValue.Клиент</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xr:DesignTimeRef">Enum.ТипыКонтрагентов.EnumValue.Поставщик</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
+					<ContextMenu name="ТипКонтрагентаКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="ТипКонтрагентаРасширеннаяПодсказка" id="12"/>
+					<Events>
+						<Event name="OnChange">ТипКонтрагентаПриИзменении</Event>
+					</Events>
+				</RadioButtonField>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ВтораяГруппа" id="61">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вторая группа</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вторая группа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ВтораяГруппаРасширеннаяПодсказка" id="62"/>
+			<ChildItems>
+				<InputField name="Наименование" id="4">
+					<DataPath>Объект.Description</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="КонтактныйТелефон" id="13">
+					<DataPath>Объект.КонтактныйТелефон</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<Mask>+9(999)999-99-99</Mask>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КонтактныйТелефонКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="КонтактныйТелефонРасширеннаяПодсказка" id="15"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ТретьяГруппа" id="63">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Третья группа</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Третья группа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ТретьяГруппаРасширеннаяПодсказка" id="64"/>
+			<ChildItems>
+				<InputField name="ДатаРождения" id="16">
+					<DataPath>Объект.ДатаРождения</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДатаРожденияКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ДатаРожденияРасширеннаяПодсказка" id="18"/>
+				</InputField>
+				<RadioButtonField name="ПолКлиента" id="19">
+					<DataPath>Объект.ПолКлиента</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<RadioButtonType>Tumbler</RadioButtonType>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xr:DesignTimeRef">Enum.ПолФизическогоЛица.EnumValue.Мужской</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xr:DesignTimeRef">Enum.ПолФизическогоЛица.EnumValue.Женский</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
+					<ContextMenu name="ПолКлиентаКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ПолКлиентаРасширеннаяПодсказка" id="21"/>
+				</RadioButtonField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ЧетвёртаяГруппа" id="65">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Четвёртая группа</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Четвёртая группа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ЧетвёртаяГруппаРасширеннаяПодсказка" id="66"/>
+			<ChildItems>
+				<InputField name="Источник" id="22">
+					<DataPath>Объект.Источник</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ИсточникКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ИсточникРасширеннаяПодсказка" id="24"/>
+				</InputField>
+				<InputField name="ОсновнойДоговор" id="25">
+					<DataPath>Объект.ОсновнойДоговор</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ОсновнойДоговорКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="ОсновнойДоговорРасширеннаяПодсказка" id="27"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
 		<Table name="Питомцы" id="31">
 			<Representation>List</Representation>
 			<TitleLocation>Top</TitleLocation>

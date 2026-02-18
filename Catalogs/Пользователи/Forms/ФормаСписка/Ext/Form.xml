@@ -15,12 +15,12 @@
 			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
 		</UsualGroup>
 		<Table name="Список" id="3">
+			<Representation>List</Representation>
 			<CommandBarLocation>None</CommandBarLocation>
 			<DefaultItem>true</DefaultItem>
 			<UseAlternationRowColor>true</UseAlternationRowColor>
 			<InitialTreeView>ExpandTopLevel</InitialTreeView>
 			<EnableStartDrag>true</EnableStartDrag>
-			<EnableDrag>true</EnableDrag>
 			<DataPath>Список</DataPath>
 			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
 			<AutoRefresh>false</AutoRefresh>
@@ -68,73 +68,31 @@
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 			</SearchControlAddition>
 			<ChildItems>
-				<ColumnGroup name="ПерваяКолонка" id="43">
+				<ColumnGroup name="ПерваяГруппа" id="22">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Первая колонка</v8:content>
+							<v8:content>Первая группа</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Первая колонка</v8:content>
+							<v8:content>Первая группа</v8:content>
 						</v8:item>
 					</ToolTip>
-					<Group>Horizontal</Group>
-					<ExtendedTooltip name="ПерваяКолонкаРасширеннаяПодсказка" id="44"/>
+					<ExtendedTooltip name="ПерваяГруппаРасширеннаяПодсказка" id="23"/>
 					<ChildItems>
-						<LabelField name="Код" id="19">
-							<DataPath>Список.Code</DataPath>
-							<ContextMenu name="КодКонтекстноеМеню" id="20"/>
-							<ExtendedTooltip name="КодРасширеннаяПодсказка" id="21"/>
-						</LabelField>
-						<LabelField name="ТипКонтрагента" id="22">
-							<DataPath>Список.ТипКонтрагента</DataPath>
-							<ContextMenu name="ТипКонтрагентаКонтекстноеМеню" id="23"/>
-							<ExtendedTooltip name="ТипКонтрагентаРасширеннаяПодсказка" id="24"/>
-						</LabelField>
-						<LabelField name="КонтактныйТелефон" id="25">
-							<DataPath>Список.КонтактныйТелефон</DataPath>
-							<ContextMenu name="КонтактныйТелефонКонтекстноеМеню" id="26"/>
-							<ExtendedTooltip name="КонтактныйТелефонРасширеннаяПодсказка" id="27"/>
-						</LabelField>
-						<LabelField name="ДатаРождения" id="28">
-							<DataPath>Список.ДатаРождения</DataPath>
-							<ContextMenu name="ДатаРожденияКонтекстноеМеню" id="29"/>
-							<ExtendedTooltip name="ДатаРожденияРасширеннаяПодсказка" id="30"/>
-						</LabelField>
-						<LabelField name="ПолКлиента" id="31">
-							<DataPath>Список.ПолКлиента</DataPath>
-							<ContextMenu name="ПолКлиентаКонтекстноеМеню" id="32"/>
-							<ExtendedTooltip name="ПолКлиентаРасширеннаяПодсказка" id="33"/>
-						</LabelField>
-						<LabelField name="ОсновнойДоговор" id="37">
-							<DataPath>Список.ОсновнойДоговор</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Договор</v8:content>
-								</v8:item>
-							</Title>
-							<ContextMenu name="ОсновнойДоговорКонтекстноеМеню" id="38"/>
-							<ExtendedTooltip name="ОсновнойДоговорРасширеннаяПодсказка" id="39"/>
-						</LabelField>
-						<LabelField name="Источник" id="34">
-							<DataPath>Список.Источник</DataPath>
-							<ContextMenu name="ИсточникКонтекстноеМеню" id="35"/>
-							<ExtendedTooltip name="ИсточникРасширеннаяПодсказка" id="36"/>
-						</LabelField>
-						<LabelField name="Комментарий" id="40">
-							<DataPath>Список.Комментарий</DataPath>
-							<ContextMenu name="КомментарийКонтекстноеМеню" id="41"/>
-							<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="42"/>
-						</LabelField>
 						<LabelField name="Наименование" id="16">
 							<DataPath>Список.Description</DataPath>
 							<DefaultItem>true</DefaultItem>
 							<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
 							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
+						</LabelField>
+						<LabelField name="Код" id="19">
+							<DataPath>Список.Code</DataPath>
+							<ContextMenu name="КодКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="КодРасширеннаяПодсказка" id="21"/>
 						</LabelField>
 					</ChildItems>
 				</ColumnGroup>
@@ -150,7 +108,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<MainTable>Catalog.Контрагенты</MainTable>
+				<MainTable>Catalog.Пользователи</MainTable>
 				<ListSettings>
 					<dcsset:filter>
 						<dcsset:viewMode>Normal</dcsset:viewMode>

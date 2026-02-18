@@ -7,76 +7,136 @@
 		<Event name="OnOpen">ПриОткрытии</Event>
 	</Events>
 	<ChildItems>
-		<RadioButtonField name="ТипОрганизации" id="7">
-			<DataPath>Объект.ТипОрганизации</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<RadioButtonType>Tumbler</RadioButtonType>
-			<ChoiceList>
-				<xr:Item>
-					<xr:Presentation/>
-					<xr:CheckState>0</xr:CheckState>
-					<xr:Value xsi:type="FormChoiceListDesTimeValue">
-						<Presentation/>
-						<Value xsi:type="xr:DesignTimeRef">Enum.ТипыОрганизаций.EnumValue.ЮридическоеЛицо</Value>
-					</xr:Value>
-				</xr:Item>
-				<xr:Item>
-					<xr:Presentation/>
-					<xr:CheckState>0</xr:CheckState>
-					<xr:Value xsi:type="FormChoiceListDesTimeValue">
-						<Presentation/>
-						<Value xsi:type="xr:DesignTimeRef">Enum.ТипыОрганизаций.EnumValue.ИндивидуальныйПредприниматель</Value>
-					</xr:Value>
-				</xr:Item>
-			</ChoiceList>
-			<ContextMenu name="ТипОрганизацииКонтекстноеМеню" id="8"/>
-			<ExtendedTooltip name="ТипОрганизацииРасширеннаяПодсказка" id="9"/>
-			<Events>
-				<Event name="OnChange">ТипОрганизацииПриИзменении</Event>
-			</Events>
-		</RadioButtonField>
-		<InputField name="Код" id="1">
-			<DataPath>Объект.Code</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
-			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
-		</InputField>
-		<InputField name="Наименование" id="4">
-			<DataPath>Объект.Description</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
-			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
-		</InputField>
-		<InputField name="ИНН" id="10">
-			<DataPath>Объект.ИНН</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ИННКонтекстноеМеню" id="11"/>
-			<ExtendedTooltip name="ИННРасширеннаяПодсказка" id="12"/>
-		</InputField>
-		<InputField name="Руководитель" id="13">
-			<DataPath>Объект.Руководитель</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="РуководительКонтекстноеМеню" id="14"/>
-			<ExtendedTooltip name="РуководительРасширеннаяПодсказка" id="15"/>
-		</InputField>
-		<InputField name="ДолжностьРуководителя" id="16">
-			<DataPath>Объект.ДолжностьРуководителя</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ДолжностьРуководителяКонтекстноеМеню" id="17"/>
-			<ExtendedTooltip name="ДолжностьРуководителяРасширеннаяПодсказка" id="18"/>
-		</InputField>
-		<InputField name="ГлавныйБухгалтер" id="19">
-			<DataPath>Объект.ГлавныйБухгалтер</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ГлавныйБухгалтерКонтекстноеМеню" id="20"/>
-			<ExtendedTooltip name="ГлавныйБухгалтерРасширеннаяПодсказка" id="21"/>
-		</InputField>
+		<UsualGroup name="ПерваяГруппа" id="22">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Первая группа</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Первая группа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ПерваяГруппаРасширеннаяПодсказка" id="23"/>
+			<ChildItems>
+				<RadioButtonField name="ТипОрганизации" id="7">
+					<DataPath>Объект.ТипОрганизации</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<RadioButtonType>Tumbler</RadioButtonType>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xr:DesignTimeRef">Enum.ТипыОрганизаций.EnumValue.ЮридическоеЛицо</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xr:DesignTimeRef">Enum.ТипыОрганизаций.EnumValue.ИндивидуальныйПредприниматель</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
+					<ContextMenu name="ТипОрганизацииКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ТипОрганизацииРасширеннаяПодсказка" id="9"/>
+					<Events>
+						<Event name="OnChange">ТипОрганизацииПриИзменении</Event>
+					</Events>
+				</RadioButtonField>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ВтораяГруппа" id="24">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вторая группа</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вторая группа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ВтораяГруппаРасширеннаяПодсказка" id="25"/>
+			<ChildItems>
+				<InputField name="Наименование" id="4">
+					<DataPath>Объект.Description</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="ИНН" id="10">
+					<DataPath>Объект.ИНН</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ИННКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="ИННРасширеннаяПодсказка" id="12"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ТретьяГруппа" id="26">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Третья группа</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Третья группа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ТретьяГруппаРасширеннаяПодсказка" id="27"/>
+			<ChildItems>
+				<InputField name="Руководитель" id="13">
+					<DataPath>Объект.Руководитель</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="РуководительКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="РуководительРасширеннаяПодсказка" id="15"/>
+				</InputField>
+				<InputField name="ДолжностьРуководителя" id="16">
+					<DataPath>Объект.ДолжностьРуководителя</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДолжностьРуководителяКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ДолжностьРуководителяРасширеннаяПодсказка" id="18"/>
+				</InputField>
+				<InputField name="ГлавныйБухгалтер" id="19">
+					<DataPath>Объект.ГлавныйБухгалтер</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ГлавныйБухгалтерКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ГлавныйБухгалтерРасширеннаяПодсказка" id="21"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">

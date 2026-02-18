@@ -68,27 +68,44 @@
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 			</SearchControlAddition>
 			<ChildItems>
-				<LabelField name="ТипОрганизации" id="22">
-					<DataPath>Список.ТипОрганизации</DataPath>
-					<ContextMenu name="ТипОрганизацииКонтекстноеМеню" id="23"/>
-					<ExtendedTooltip name="ТипОрганизацииРасширеннаяПодсказка" id="24"/>
-				</LabelField>
-				<LabelField name="Наименование" id="16">
-					<DataPath>Список.Description</DataPath>
-					<DefaultItem>true</DefaultItem>
-					<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
-					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
-				</LabelField>
-				<LabelField name="ИНН" id="25">
-					<DataPath>Список.ИНН</DataPath>
-					<ContextMenu name="ИННКонтекстноеМеню" id="26"/>
-					<ExtendedTooltip name="ИННРасширеннаяПодсказка" id="27"/>
-				</LabelField>
-				<LabelField name="Код" id="19">
-					<DataPath>Список.Code</DataPath>
-					<ContextMenu name="КодКонтекстноеМеню" id="20"/>
-					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="21"/>
-				</LabelField>
+				<ColumnGroup name="ПерваяГруппа" id="28">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Первая группа</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Первая группа</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ПерваяГруппаРасширеннаяПодсказка" id="29"/>
+					<ChildItems>
+						<LabelField name="ТипОрганизации" id="22">
+							<DataPath>Список.ТипОрганизации</DataPath>
+							<ContextMenu name="ТипОрганизацииКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="ТипОрганизацииРасширеннаяПодсказка" id="24"/>
+						</LabelField>
+						<LabelField name="Наименование" id="16">
+							<DataPath>Список.Description</DataPath>
+							<DefaultItem>true</DefaultItem>
+							<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
+						</LabelField>
+						<LabelField name="ИНН" id="25">
+							<DataPath>Список.ИНН</DataPath>
+							<ContextMenu name="ИННКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="ИННРасширеннаяПодсказка" id="27"/>
+						</LabelField>
+						<LabelField name="Код" id="19">
+							<DataPath>Список.Code</DataPath>
+							<ContextMenu name="КодКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="КодРасширеннаяПодсказка" id="21"/>
+						</LabelField>
+					</ChildItems>
+				</ColumnGroup>
 			</ChildItems>
 		</Table>
 	</ChildItems>

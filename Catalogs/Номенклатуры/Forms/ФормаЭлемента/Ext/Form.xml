@@ -29,8 +29,8 @@
 					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
 					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
 				</InputField>
-				<RadioButtonField name="ВидПитомца" id="10">
-					<DataPath>Объект.ВидПитомца</DataPath>
+				<RadioButtonField name="ТипНоменклатуры" id="10">
+					<DataPath>Объект.ТипНоменклатуры</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<RadioButtonType>Tumbler</RadioButtonType>
 					<ChoiceList>
@@ -39,7 +39,7 @@
 							<xr:CheckState>0</xr:CheckState>
 							<xr:Value xsi:type="FormChoiceListDesTimeValue">
 								<Presentation/>
-								<Value xsi:type="xr:DesignTimeRef">Enum.ВидыПитомцев.EnumValue.Кошка</Value>
+								<Value xsi:type="xr:DesignTimeRef">Enum.ТипыНоменклатур.EnumValue.Услуга</Value>
 							</xr:Value>
 						</xr:Item>
 						<xr:Item>
@@ -47,12 +47,20 @@
 							<xr:CheckState>0</xr:CheckState>
 							<xr:Value xsi:type="FormChoiceListDesTimeValue">
 								<Presentation/>
-								<Value xsi:type="xr:DesignTimeRef">Enum.ВидыПитомцев.EnumValue.Собака</Value>
+								<Value xsi:type="xr:DesignTimeRef">Enum.ТипыНоменклатур.EnumValue.Товар</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xr:DesignTimeRef">Enum.ТипыНоменклатур.EnumValue.Материал</Value>
 							</xr:Value>
 						</xr:Item>
 					</ChoiceList>
-					<ContextMenu name="ВидПитомцаКонтекстноеМеню" id="11"/>
-					<ExtendedTooltip name="ВидПитомцаРасширеннаяПодсказка" id="12"/>
+					<ContextMenu name="ТипНоменклатурыКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="ТипНоменклатурыРасширеннаяПодсказка" id="12"/>
 				</RadioButtonField>
 			</ChildItems>
 		</UsualGroup>
@@ -95,7 +103,7 @@
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:CatalogObject.ПородыПитомцев</v8:Type>
+				<v8:Type>cfg:CatalogObject.Номенклатуры</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
