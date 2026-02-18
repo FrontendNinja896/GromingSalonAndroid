@@ -65,7 +65,7 @@
 		<Metadata name="Catalog.ПородыПитомцев.Form.ФормаЭлемента.Form" id="c57d8c57-12ac-4389-aaa8-d54dadb441ea.0" configVersion="8a2f78240c2ffe43a6bf122ed9ae3a6a00000000"/>
 		<Metadata name="Catalog.ПородыПитомцев.Predefined" id="622de4b4-af00-4fbe-aa1c-908ef8e5fa6b.1c" configVersion="1de87347b0c59949b30b7e35ceebda1000000000"/>
 		<Metadata name="Catalog.Склады" id="bf0d071e-cfad-49ce-96be-ec4f09cd2be7" configVersion="2d85db3e59a9d940aa7b97198f9d397400000000"/>
-		<Metadata name="Catalog.Сотрудники" id="1ffbaf82-d7e3-4491-9ece-4b9f275c74bb" configVersion="efdb421260bb2a4cb1ac5588badefdd500000000">
+		<Metadata name="Catalog.Сотрудники" id="1ffbaf82-d7e3-4491-9ece-4b9f275c74bb" configVersion="e32798cbbac9e1489b143afab6a35bc500000000">
 			<Metadata name="Catalog.Сотрудники.Attribute.Отчество" id="030953f5-0941-4479-a503-f4d91049a596"/>
 			<Metadata name="Catalog.Сотрудники.Attribute.ДатаРождения" id="08988d6b-a5e1-41f3-9c1f-538133b990df"/>
 			<Metadata name="Catalog.Сотрудники.Attribute.Имя" id="21d872a2-ecd0-42ce-9bbe-a5d1784d744f"/>
@@ -74,6 +74,8 @@
 			<Metadata name="Catalog.Сотрудники.Attribute.КонтактныйТелефон" id="820f8f7d-9ad7-4ca0-8bce-02bc76429c5d"/>
 			<Metadata name="Catalog.Сотрудники.Attribute.Пол" id="9e9033d1-0e4f-4fac-b37a-ef2f2880d661"/>
 		</Metadata>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента" id="a9cfe52f-eb05-4bab-9b5d-6babc3708869" configVersion="94636965a1fb474fb35b7882eeb23b7600000000"/>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента.Form" id="a9cfe52f-eb05-4bab-9b5d-6babc3708869.0" configVersion="12cb99086d25d94f972699d6c7655e9400000000"/>
 		<Metadata name="CommonForm.СкладскойУчёт" id="6aed3a65-5717-4b5e-9ed4-6a029570b733" configVersion="35c677e916f032479b4a493e7e9e1f4f00000000"/>
 		<Metadata name="CommonForm.СкладскойУчёт.Form" id="6aed3a65-5717-4b5e-9ed4-6a029570b733.0" configVersion="ff7c83d0031a844e9dc7cf227e5c581500000000"/>
 		<Metadata name="Configuration.Конфигурация" id="201a32b8-dd4c-42bd-a005-301829951253" configVersion="3c27f36d27120d44995dbb944354f6cb00000000"/>
