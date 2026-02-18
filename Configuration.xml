@@ -269,6 +269,7 @@
 			<Enum>ТипыКонтрагентов</Enum>
 			<AccumulationRegister>ТоварыНаСкладах</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
+			<AccumulationRegister>ЗаказыКлиентов</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

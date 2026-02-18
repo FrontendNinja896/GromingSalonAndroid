@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
+		<Metadata name="AccumulationRegister.ЗаказыКлиентов" id="0fe42da5-a888-4ac0-8c1d-4adbb16eb37c" configVersion="803e6a3cb9e3c1428ac41bf2ac374e5000000000">
+			<Metadata name="AccumulationRegister.ЗаказыКлиентов.Dimension.ЗаписьКлиента" id="048b1876-fa5f-418e-9138-27e5cd9da430"/>
+			<Metadata name="AccumulationRegister.ЗаказыКлиентов.Resource.СуммаФакт" id="1b18e9b4-38fb-4241-8760-60efcdb943e8"/>
+			<Metadata name="AccumulationRegister.ЗаказыКлиентов.Dimension.Клиент" id="a619b519-ef0c-4e5c-a9f8-89dc09da196a"/>
+			<Metadata name="AccumulationRegister.ЗаказыКлиентов.Resource.СуммаПлан" id="e742b85d-6507-4789-980c-9074cd56e8d2"/>
+		</Metadata>
 		<Metadata name="AccumulationRegister.Продажи" id="f9af9b37-c797-449e-bdea-ac808ffd15e4" configVersion="33826e3769b8554d8f48755c41ba9a5e00000000">
 			<Metadata name="AccumulationRegister.Продажи.Dimension.Сотрудник" id="54b10fa5-7750-4542-bcfe-0fe13d28af74"/>
 			<Metadata name="AccumulationRegister.Продажи.Resource.Сумма" id="6da4b711-7f92-4b8b-8881-bc57c6db7117"/>
@@ -88,11 +94,11 @@
 		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента.Form" id="a9cfe52f-eb05-4bab-9b5d-6babc3708869.0" configVersion="aa5032eada32ac41ba51c59fe419a84800000000"/>
 		<Metadata name="CommonForm.СкладскойУчёт" id="6aed3a65-5717-4b5e-9ed4-6a029570b733" configVersion="35c677e916f032479b4a493e7e9e1f4f00000000"/>
 		<Metadata name="CommonForm.СкладскойУчёт.Form" id="6aed3a65-5717-4b5e-9ed4-6a029570b733.0" configVersion="ff7c83d0031a844e9dc7cf227e5c581500000000"/>
-		<Metadata name="Configuration.Конфигурация" id="201a32b8-dd4c-42bd-a005-301829951253" configVersion="3c27f36d27120d44995dbb944354f6cb00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="201a32b8-dd4c-42bd-a005-301829951253" configVersion="4ce15b704ccab345ad740b33932aae0c00000000"/>
 		<Metadata name="Configuration.Конфигурация.MainSectionCommandInterface" id="ebc240bc-c7e2-4854-98f6-3787e95ac3ba.9" configVersion="744cdae63bd58147a442eed9752c0e9100000000"/>
 		<Metadata name="Constant.ИспользоватьСклады" id="e1348835-e220-4459-bcd1-c1a11f5094de" configVersion="eebb863bc129ca47a5a7168e6644aa8e00000000"/>
 		<Metadata name="DefinedType.Финансы" id="3d45c8bd-3d82-47b5-9256-243ece1ec7ef" configVersion="cbcdcca4cd2d654088b2ca80ee2ee43900000000"/>
-		<Metadata name="Document.ЗаписьКлиента" id="384d4072-89ef-4f8c-acbc-700ee19bc635" configVersion="17ab97c56f31b74987f921176edaef1400000000">
+		<Metadata name="Document.ЗаписьКлиента" id="384d4072-89ef-4f8c-acbc-700ee19bc635" configVersion="2b5270e419df1f4c8166f6bf53afa66600000000">
 			<Metadata name="Document.ЗаписьКлиента.TabularSection.Услуги.Attribute.Услуга" id="2aa05502-cdb1-44ea-b33f-8248f63c13f3"/>
 			<Metadata name="Document.ЗаписьКлиента.TabularSection.Услуги.Attribute.Стоимость" id="2e06943e-12f3-4468-b3ce-b032ee2bbd20"/>
 			<Metadata name="Document.ЗаписьКлиента.Attribute.Комментарий" id="3177f184-e8f4-4495-9ccb-b7a2e86f2423"/>
@@ -120,7 +126,7 @@
 			<Metadata name="Document.ПоступлениеТоваров.Attribute.СуммаДокумента" id="db235198-843d-4d26-80b3-b9ceb2ab60e0"/>
 		</Metadata>
 		<Metadata name="Document.ПоступлениеТоваров.ObjectModule" id="741dc7da-646e-4db2-931e-1049d8b5816d.0" configVersion="bbf715ebb093104e960fe126d56503f500000000"/>
-		<Metadata name="Document.РеализацияТоваровИУслуг" id="442a38b6-087e-40d5-876b-73b8cc30d5e4" configVersion="f31b12950c1a8c43b0ac4f932fbff68900000000">
+		<Metadata name="Document.РеализацияТоваровИУслуг" id="442a38b6-087e-40d5-876b-73b8cc30d5e4" configVersion="e4c06fac62072d49b7ea8fad8428873900000000">
 			<Metadata name="Document.РеализацияТоваровИУслуг.Attribute.Комментарий" id="1e85fa5a-1489-4ba6-a46d-b334e4873b53"/>
 			<Metadata name="Document.РеализацияТоваровИУслуг.Attribute.Основание" id="2f4cb964-5091-4b67-8f44-ed453aedd05b"/>
 			<Metadata name="Document.РеализацияТоваровИУслуг.Attribute.Ответственный" id="38748458-63e1-4837-9323-a38c3353a3e5"/>
