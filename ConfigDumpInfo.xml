@@ -40,13 +40,15 @@
 			<Metadata name="Catalog.Номенклатуры.Attribute.ТипНоменклатуры" id="07611fe7-74a4-4ce5-a918-7fc9a8513c9c"/>
 		</Metadata>
 		<Metadata name="Catalog.Номенклатуры.Predefined" id="048bf64f-22f6-4a7d-a9d5-81869e47803e.1c" configVersion="3339331651926b45b2b58af0791ffba400000000"/>
-		<Metadata name="Catalog.Организации" id="79df58e7-1c1b-4e5a-a498-6cef78352c0b" configVersion="3776d7315680ab4d87ce481636f869bc00000000">
+		<Metadata name="Catalog.Организации" id="79df58e7-1c1b-4e5a-a498-6cef78352c0b" configVersion="be9768c93cfdcf418179213291a07e1900000000">
 			<Metadata name="Catalog.Организации.Attribute.Руководитель" id="4435a191-b8c9-4ece-af3b-4150c426dddd"/>
 			<Metadata name="Catalog.Организации.Attribute.ГлавныйБухгалтер" id="56c29fae-73c0-46e1-b69f-2952449a3f2f"/>
 			<Metadata name="Catalog.Организации.Attribute.ТипОрганизации" id="711f8a03-91e8-4e9a-8776-c6923faf5ee5"/>
 			<Metadata name="Catalog.Организации.Attribute.ДолжностьРуководителя" id="db762e89-1179-45ad-8035-e1040c4d6baf"/>
 			<Metadata name="Catalog.Организации.Attribute.ИНН" id="edce8de9-2515-4587-804d-81408175ddbb"/>
 		</Metadata>
+		<Metadata name="Catalog.Организации.Form.СведенияОбОрганизации" id="fbf6efd1-e5c7-4d41-a14c-f076d66259f1" configVersion="3fc6b62a329a89428c7675d070a2e57600000000"/>
+		<Metadata name="Catalog.Организации.Form.СведенияОбОрганизации.Form" id="fbf6efd1-e5c7-4d41-a14c-f076d66259f1.0" configVersion="cca849b04e72ee4384e49b04d943659c00000000"/>
 		<Metadata name="Catalog.Пользователи" id="5778bb77-c9d7-49c5-9282-c517f21a58af" configVersion="bf75eac3dfb6c9448fc8b2504740b40e00000000"/>
 		<Metadata name="Catalog.ПородыПитомцев" id="622de4b4-af00-4fbe-aa1c-908ef8e5fa6b" configVersion="4886d03ada62c84fa97150390fa1fe0f00000000">
 			<Metadata name="Catalog.ПородыПитомцев.Attribute.ВидПитомца" id="cf624cb9-39e7-4ffe-9887-2ccb3a65924a"/>
