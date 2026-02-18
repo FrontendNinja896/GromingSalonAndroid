@@ -99,8 +99,9 @@
 		<Metadata name="CommandGroup.Справочники" id="7c737579-d196-48d3-acb8-7419cf1a8c2b" configVersion="5ea3beb28dac7f488756b4892196b82f00000000"/>
 		<Metadata name="CommonForm.СкладскойУчёт" id="6aed3a65-5717-4b5e-9ed4-6a029570b733" configVersion="35c677e916f032479b4a493e7e9e1f4f00000000"/>
 		<Metadata name="CommonForm.СкладскойУчёт.Form" id="6aed3a65-5717-4b5e-9ed4-6a029570b733.0" configVersion="ff7c83d0031a844e9dc7cf227e5c581500000000"/>
-		<Metadata name="Configuration.Конфигурация" id="201a32b8-dd4c-42bd-a005-301829951253" configVersion="adb85f12408eee4894b243a6f946ebef00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="201a32b8-dd4c-42bd-a005-301829951253" configVersion="b81abefc6c8fd544a62948b4eb62e0c800000000"/>
 		<Metadata name="Configuration.Конфигурация.CommandInterface" id="ebc240bc-c7e2-4854-98f6-3787e95ac3ba.a" configVersion="f0e6d21a91f7ff418528a50f48b5d3da00000000"/>
+		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="ebc240bc-c7e2-4854-98f6-3787e95ac3ba.8" configVersion="7e80196c763f124f9a387d9a8a90e8b000000000"/>
 		<Metadata name="Configuration.Конфигурация.MainSectionCommandInterface" id="ebc240bc-c7e2-4854-98f6-3787e95ac3ba.9" configVersion="cd2e28e7e3da9e4fa1c7a7e0f083dd8a00000000"/>
 		<Metadata name="Constant.ИспользоватьСклады" id="e1348835-e220-4459-bcd1-c1a11f5094de" configVersion="eebb863bc129ca47a5a7168e6644aa8e00000000"/>
 		<Metadata name="DefinedType.Финансы" id="3d45c8bd-3d82-47b5-9256-243ece1ec7ef" configVersion="cbcdcca4cd2d654088b2ca80ee2ee43900000000"/>
@@ -153,6 +154,9 @@
 		<Metadata name="Document.РеализацияТоваровИУслуг.Form.ФормаДокумента" id="16875d68-8fb8-424a-af2f-d874183e9435" configVersion="8b2c757d9537484ca851aecd0a845d6000000000"/>
 		<Metadata name="Document.РеализацияТоваровИУслуг.Form.ФормаДокумента.Form" id="16875d68-8fb8-424a-af2f-d874183e9435.0" configVersion="2139829b50e4aa4791c1d03ffdbadbf000000000"/>
 		<Metadata name="Document.РеализацияТоваровИУслуг.ObjectModule" id="442a38b6-087e-40d5-876b-73b8cc30d5e4.0" configVersion="50aba038310fa74e843598292c965d1f00000000"/>
+		<Metadata name="DocumentJournal.ЖурналЗаписиКлиентов" id="86229b44-f09f-4ff0-907e-1fd1d4b5055b" configVersion="66f24be80910104c953e68ed2fb68e9600000000"/>
+		<Metadata name="DocumentJournal.ЖурналЗаписиКлиентов.Form.ФормаСписка" id="e593162f-efca-4b5f-9d38-edd542ce4722" configVersion="80a1ee9d53550242a4004dd6862c139f00000000"/>
+		<Metadata name="DocumentJournal.ЖурналЗаписиКлиентов.Form.ФормаСписка.Form" id="e593162f-efca-4b5f-9d38-edd542ce4722.0" configVersion="0e74674e606641488c3b48e8ba99f3dd00000000"/>
 		<Metadata name="Enum.ВидыПитомцев" id="f9a3fc4d-8b44-4854-b4af-32d2eff7e2ab" configVersion="1974172edc0a4d4ebf09edc128872bc000000000">
 			<Metadata name="Enum.ВидыПитомцев.EnumValue.Кошка" id="9d1459e5-5e60-46fd-9225-50ef876d0882"/>
 			<Metadata name="Enum.ВидыПитомцев.EnumValue.Собака" id="d818e413-690f-4b3b-9fc5-610acf6399d2"/>

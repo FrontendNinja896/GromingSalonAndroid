@@ -272,6 +272,7 @@
 			<Document>ЗаписьКлиента</Document>
 			<Document>РеализацияТоваровИУслуг</Document>
 			<Document>ПоступлениеТоваров</Document>
+			<DocumentJournal>ЖурналЗаписиКлиентов</DocumentJournal>
 			<Enum>ТипыОрганизаций</Enum>
 			<Enum>ВидыПитомцев</Enum>
 			<Enum>ТипыНоменклатур</Enum>
