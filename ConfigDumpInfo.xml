@@ -12,13 +12,15 @@
 			<Metadata name="AccumulationRegister.ТоварыНаСкладах.Dimension.Номенклатура" id="bd9ebd4a-ecfd-45e4-b865-a4956748dc01"/>
 			<Metadata name="AccumulationRegister.ТоварыНаСкладах.Dimension.Склад" id="cdb73a63-0590-42fb-9840-7a6c02cfdf38"/>
 		</Metadata>
-		<Metadata name="Catalog.ДоговорыПоставщиков" id="a77c71eb-4f79-4706-824d-d5e67e6e9d9f" configVersion="f2910cb2f2f0e24b84785fcf5bd39c6200000000">
+		<Metadata name="Catalog.ДоговорыПоставщиков" id="a77c71eb-4f79-4706-824d-d5e67e6e9d9f" configVersion="5109e492b821a34f84b6e2ac1dccad3c00000000">
 			<Metadata name="Catalog.ДоговорыПоставщиков.Attribute.Комментарий" id="01dc5024-cd5e-4146-8507-d0fdac930ec7"/>
 			<Metadata name="Catalog.ДоговорыПоставщиков.Attribute.НомерДоговораВнешний" id="4f2f2d56-debb-42ec-b7a3-acd85fdd3576"/>
 			<Metadata name="Catalog.ДоговорыПоставщиков.Attribute.СрокДействияДоговора" id="7359152c-1176-43dd-a130-bbd20c04fe70"/>
 			<Metadata name="Catalog.ДоговорыПоставщиков.Attribute.Бессрочный" id="86b4d97e-ab17-4301-a71e-1d2de97ec8de"/>
 			<Metadata name="Catalog.ДоговорыПоставщиков.Attribute.ДатаЗаключенияДоговора" id="ea8add0e-eefa-408c-ad29-8fbefe06f1be"/>
 		</Metadata>
+		<Metadata name="Catalog.ДоговорыПоставщиков.Form.ФормаЭлемента" id="3c59a6a4-3bf9-4b37-be76-7e3afcc1485e" configVersion="26913174cf00ed43a84154f236182bb400000000"/>
+		<Metadata name="Catalog.ДоговорыПоставщиков.Form.ФормаЭлемента.Form" id="3c59a6a4-3bf9-4b37-be76-7e3afcc1485e.0" configVersion="4a92250b426f1c40b056f62c1fb5802f00000000"/>
 		<Metadata name="Catalog.Должности" id="89e93c49-b570-4cb2-9b70-16be9a52b3b1" configVersion="9cf44ffaca1bec48a88a3b92b5c93c6e00000000"/>
 		<Metadata name="Catalog.ИсточникиПолученияИнформации" id="584250c0-391f-4d54-b83a-e8899f79667a" configVersion="a7b709d3c3c74c49bde27c1bde031c9a00000000"/>
 		<Metadata name="Catalog.Контрагенты" id="e7e81629-48fd-47dd-9f88-a75febd2f435" configVersion="e710b371f1de4c49bb807f0451f6f03c00000000">
