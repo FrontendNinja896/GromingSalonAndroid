@@ -245,8 +245,18 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Справочники</Subsystem>
+			<Subsystem>Покупки</Subsystem>
+			<Subsystem>Продажи</Subsystem>
+			<Subsystem>Персонал</Subsystem>
+			<Subsystem>Настройки</Subsystem>
 			<FunctionalOption>СкладскойУчёт</FunctionalOption>
 			<DefinedType>Финансы</DefinedType>
+			<CommandGroup>Персонал</CommandGroup>
+			<CommandGroup>Продажи</CommandGroup>
+			<CommandGroup>Покупки</CommandGroup>
+			<CommandGroup>Справочники</CommandGroup>
+			<CommandGroup>Настройки</CommandGroup>
 			<Constant>ИспользоватьСклады</Constant>
 			<CommonForm>СкладскойУчёт</CommonForm>
 			<Catalog>Организации</Catalog>
