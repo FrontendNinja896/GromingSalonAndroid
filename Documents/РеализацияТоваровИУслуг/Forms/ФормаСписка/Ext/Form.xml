@@ -68,8 +68,20 @@
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 			</SearchControlAddition>
 			<ChildItems>
-				<ColumnGroup name="Группа1" id="40">
-					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="41"/>
+				<ColumnGroup name="ПерваяГруппа" id="40">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Первая группа</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Первая группа</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ПерваяГруппаРасширеннаяПодсказка" id="41"/>
 					<ChildItems>
 						<LabelField name="Дата" id="16">
 							<DataPath>Список.Date</DataPath>
@@ -94,8 +106,20 @@
 						</LabelField>
 					</ChildItems>
 				</ColumnGroup>
-				<ColumnGroup name="Группа2" id="42">
-					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="43"/>
+				<ColumnGroup name="ВтораяГруппа" id="42">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вторая группа</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вторая группа</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ВтораяГруппаРасширеннаяПодсказка" id="43"/>
 					<ChildItems>
 						<LabelField name="Клиент" id="22">
 							<DataPath>Список.Клиент</DataPath>

@@ -225,49 +225,85 @@
 				<ExtendedTooltip name="ПитомцыУправлениеПоискомРасширеннаяПодсказка" id="43"/>
 			</SearchControlAddition>
 			<ChildItems>
-				<LabelField name="ПитомцыНомерСтроки" id="44">
-					<DataPath>Объект.Питомцы.LineNumber</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ПитомцыНомерСтрокиКонтекстноеМеню" id="45"/>
-					<ExtendedTooltip name="ПитомцыНомерСтрокиРасширеннаяПодсказка" id="46"/>
-				</LabelField>
-				<InputField name="ПитомцыВидПитомца" id="47">
-					<DataPath>Объект.Питомцы.ВидПитомца</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ПитомцыВидПитомцаКонтекстноеМеню" id="48"/>
-					<ExtendedTooltip name="ПитомцыВидПитомцаРасширеннаяПодсказка" id="49"/>
-				</InputField>
-				<InputField name="ПитомцыПородаПитомца" id="50">
-					<DataPath>Объект.Питомцы.ПородаПитомца</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ПитомцыПородаПитомцаКонтекстноеМеню" id="51"/>
-					<ExtendedTooltip name="ПитомцыПородаПитомцаРасширеннаяПодсказка" id="52"/>
-				</InputField>
-				<InputField name="ПитомцыКличкаПитомца" id="53">
-					<DataPath>Объект.Питомцы.КличкаПитомца</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ПитомцыКличкаПитомцаКонтекстноеМеню" id="54"/>
-					<ExtendedTooltip name="ПитомцыКличкаПитомцаРасширеннаяПодсказка" id="55"/>
-				</InputField>
-				<InputField name="ПитомцыДатаРожденияПитомца" id="56">
-					<DataPath>Объект.Питомцы.ДатаРожденияПитомца</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ПитомцыДатаРожденияПитомцаКонтекстноеМеню" id="57"/>
-					<ExtendedTooltip name="ПитомцыДатаРожденияПитомцаРасширеннаяПодсказка" id="58"/>
-				</InputField>
+				<ColumnGroup name="Колонка1" id="67">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Колонка1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Колонка1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="Колонка1РасширеннаяПодсказка" id="68"/>
+					<ChildItems>
+						<LabelField name="ПитомцыНомерСтроки" id="44">
+							<DataPath>Объект.Питомцы.LineNumber</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ПитомцыНомерСтрокиКонтекстноеМеню" id="45"/>
+							<ExtendedTooltip name="ПитомцыНомерСтрокиРасширеннаяПодсказка" id="46"/>
+						</LabelField>
+						<InputField name="ПитомцыВидПитомца" id="47">
+							<DataPath>Объект.Питомцы.ВидПитомца</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ПитомцыВидПитомцаКонтекстноеМеню" id="48"/>
+							<ExtendedTooltip name="ПитомцыВидПитомцаРасширеннаяПодсказка" id="49"/>
+						</InputField>
+						<InputField name="ПитомцыПородаПитомца" id="50">
+							<DataPath>Объект.Питомцы.ПородаПитомца</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ПитомцыПородаПитомцаКонтекстноеМеню" id="51"/>
+							<ExtendedTooltip name="ПитомцыПородаПитомцаРасширеннаяПодсказка" id="52"/>
+						</InputField>
+						<InputField name="ПитомцыКличкаПитомца" id="53">
+							<DataPath>Объект.Питомцы.КличкаПитомца</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ПитомцыКличкаПитомцаКонтекстноеМеню" id="54"/>
+							<ExtendedTooltip name="ПитомцыКличкаПитомцаРасширеннаяПодсказка" id="55"/>
+						</InputField>
+						<InputField name="ПитомцыДатаРожденияПитомца" id="56">
+							<DataPath>Объект.Питомцы.ДатаРожденияПитомца</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ПитомцыДатаРожденияПитомцаКонтекстноеМеню" id="57"/>
+							<ExtendedTooltip name="ПитомцыДатаРожденияПитомцаРасширеннаяПодсказка" id="58"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
 			</ChildItems>
 		</Table>
-		<InputField name="Комментарий" id="28">
-			<DataPath>Объект.Комментарий</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="КомментарийКонтекстноеМеню" id="29"/>
-			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="30"/>
-		</InputField>
+		<UsualGroup name="ПятаяГруппа" id="69">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пятая группа</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пятая группа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ПятаяГруппаРасширеннаяПодсказка" id="70"/>
+			<ChildItems>
+				<InputField name="Комментарий" id="28">
+					<DataPath>Объект.Комментарий</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="30"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">

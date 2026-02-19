@@ -194,59 +194,93 @@
 				<ExtendedTooltip name="ТоварыУправлениеПоискомРасширеннаяПодсказка" id="43"/>
 			</SearchControlAddition>
 			<ChildItems>
-				<LabelField name="ТоварыНомерСтроки" id="44">
-					<DataPath>Объект.Товары.LineNumber</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ТоварыНомерСтрокиКонтекстноеМеню" id="45"/>
-					<ExtendedTooltip name="ТоварыНомерСтрокиРасширеннаяПодсказка" id="46"/>
-				</LabelField>
-				<InputField name="ТоварыТовар" id="47">
-					<DataPath>Объект.Товары.Товар</DataPath>
+				<ColumnGroup name="Колонка1" id="74">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Номенклатура</v8:content>
+							<v8:content>Колонка1</v8:content>
 						</v8:item>
 					</Title>
-					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ТоварыТоварКонтекстноеМеню" id="48"/>
-					<ExtendedTooltip name="ТоварыТоварРасширеннаяПодсказка" id="49"/>
-				</InputField>
-				<LabelField name="ТоварыТоварТипНоменклатуры" id="71">
-					<DataPath>Объект.Товары.Товар.ТипНоменклатуры</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ТоварыТоварТипНоменклатурыКонтекстноеМеню" id="72"/>
-					<ExtendedTooltip name="ТоварыТоварТипНоменклатурыРасширеннаяПодсказка" id="73"/>
-				</LabelField>
-				<InputField name="ТоварыКоличество" id="50">
-					<DataPath>Объект.Товары.Количество</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ТоварыКоличествоКонтекстноеМеню" id="51"/>
-					<ExtendedTooltip name="ТоварыКоличествоРасширеннаяПодсказка" id="52"/>
-					<Events>
-						<Event name="OnChange">ТоварыКоличествоПриИзменении</Event>
-					</Events>
-				</InputField>
-				<InputField name="ТоварыЦена" id="53">
-					<DataPath>Объект.Товары.Цена</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ТоварыЦенаКонтекстноеМеню" id="54"/>
-					<ExtendedTooltip name="ТоварыЦенаРасширеннаяПодсказка" id="55"/>
-					<Events>
-						<Event name="OnChange">ТоварыЦенаПриИзменении</Event>
-					</Events>
-				</InputField>
-				<InputField name="ТоварыСумма" id="56">
-					<DataPath>Объект.Товары.Сумма</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<FooterDataPath>Объект.Товары.TotalСумма</FooterDataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ТоварыСуммаКонтекстноеМеню" id="57"/>
-					<ExtendedTooltip name="ТоварыСуммаРасширеннаяПодсказка" id="58"/>
-				</InputField>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Колонка1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="Колонка1РасширеннаяПодсказка" id="75"/>
+					<ChildItems>
+						<LabelField name="ТоварыНомерСтроки" id="44">
+							<DataPath>Объект.Товары.LineNumber</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ТоварыНомерСтрокиКонтекстноеМеню" id="45"/>
+							<ExtendedTooltip name="ТоварыНомерСтрокиРасширеннаяПодсказка" id="46"/>
+						</LabelField>
+						<InputField name="ТоварыТовар" id="47">
+							<DataPath>Объект.Товары.Товар</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Номенклатура</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТоварыТоварКонтекстноеМеню" id="48"/>
+							<ExtendedTooltip name="ТоварыТоварРасширеннаяПодсказка" id="49"/>
+						</InputField>
+						<LabelField name="ТоварыТоварТипНоменклатуры" id="71">
+							<DataPath>Объект.Товары.Товар.ТипНоменклатуры</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ТоварыТоварТипНоменклатурыКонтекстноеМеню" id="72"/>
+							<ExtendedTooltip name="ТоварыТоварТипНоменклатурыРасширеннаяПодсказка" id="73"/>
+						</LabelField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="Колонка2" id="76">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Колонка2</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Колонка2</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="Колонка2РасширеннаяПодсказка" id="77"/>
+					<ChildItems>
+						<InputField name="ТоварыКоличество" id="50">
+							<DataPath>Объект.Товары.Количество</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТоварыКоличествоКонтекстноеМеню" id="51"/>
+							<ExtendedTooltip name="ТоварыКоличествоРасширеннаяПодсказка" id="52"/>
+							<Events>
+								<Event name="OnChange">ТоварыКоличествоПриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="ТоварыЦена" id="53">
+							<DataPath>Объект.Товары.Цена</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТоварыЦенаКонтекстноеМеню" id="54"/>
+							<ExtendedTooltip name="ТоварыЦенаРасширеннаяПодсказка" id="55"/>
+							<Events>
+								<Event name="OnChange">ТоварыЦенаПриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="ТоварыСумма" id="56">
+							<DataPath>Объект.Товары.Сумма</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<FooterDataPath>Объект.Товары.TotalСумма</FooterDataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТоварыСуммаКонтекстноеМеню" id="57"/>
+							<ExtendedTooltip name="ТоварыСуммаРасширеннаяПодсказка" id="58"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
 			</ChildItems>
 		</Table>
 		<UsualGroup name="ПятаяГруппа" id="67">

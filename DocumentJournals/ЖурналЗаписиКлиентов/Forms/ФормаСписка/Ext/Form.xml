@@ -68,36 +68,70 @@
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 			</SearchControlAddition>
 			<ChildItems>
-				<LabelField name="Дата" id="16">
-					<DataPath>Список.Date</DataPath>
-					<ContextMenu name="ДатаКонтекстноеМеню" id="17"/>
-					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="18"/>
-				</LabelField>
-				<LabelField name="Номер" id="19">
-					<DataPath>Список.Number</DataPath>
-					<ContextMenu name="НомерКонтекстноеМеню" id="20"/>
-					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="21"/>
-				</LabelField>
-				<LabelField name="СсылкаДатаЗаписи" id="25">
-					<DataPath>Список.Ref.ДатаЗаписи</DataPath>
-					<ContextMenu name="СсылкаДатаЗаписиКонтекстноеМеню" id="26"/>
-					<ExtendedTooltip name="СсылкаДатаЗаписиРасширеннаяПодсказка" id="27"/>
-				</LabelField>
-				<LabelField name="СсылкаСотрудник" id="28">
-					<DataPath>Список.Ref.Сотрудник</DataPath>
-					<ContextMenu name="СсылкаСотрудникКонтекстноеМеню" id="29"/>
-					<ExtendedTooltip name="СсылкаСотрудникРасширеннаяПодсказка" id="30"/>
-				</LabelField>
-				<LabelField name="СсылкаКлиент" id="31">
-					<DataPath>Список.Ref.Клиент</DataPath>
-					<ContextMenu name="СсылкаКлиентКонтекстноеМеню" id="32"/>
-					<ExtendedTooltip name="СсылкаКлиентРасширеннаяПодсказка" id="33"/>
-				</LabelField>
-				<LabelField name="СсылкаОтветственный" id="34">
-					<DataPath>Список.Ref.Ответственный</DataPath>
-					<ContextMenu name="СсылкаОтветственныйКонтекстноеМеню" id="35"/>
-					<ExtendedTooltip name="СсылкаОтветственныйРасширеннаяПодсказка" id="36"/>
-				</LabelField>
+				<ColumnGroup name="Колонка1" id="37">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Колонка1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Колонка1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="Колонка1РасширеннаяПодсказка" id="38"/>
+					<ChildItems>
+						<LabelField name="Дата" id="16">
+							<DataPath>Список.Date</DataPath>
+							<ContextMenu name="ДатаКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="18"/>
+						</LabelField>
+						<LabelField name="Номер" id="19">
+							<DataPath>Список.Number</DataPath>
+							<ContextMenu name="НомерКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="21"/>
+						</LabelField>
+						<LabelField name="СсылкаДатаЗаписи" id="25">
+							<DataPath>Список.Ref.ДатаЗаписи</DataPath>
+							<ContextMenu name="СсылкаДатаЗаписиКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="СсылкаДатаЗаписиРасширеннаяПодсказка" id="27"/>
+						</LabelField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="Колонка2" id="39">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Колонка2</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Колонка2</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="Колонка2РасширеннаяПодсказка" id="40"/>
+					<ChildItems>
+						<LabelField name="СсылкаСотрудник" id="28">
+							<DataPath>Список.Ref.Сотрудник</DataPath>
+							<ContextMenu name="СсылкаСотрудникКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="СсылкаСотрудникРасширеннаяПодсказка" id="30"/>
+						</LabelField>
+						<LabelField name="СсылкаКлиент" id="31">
+							<DataPath>Список.Ref.Клиент</DataPath>
+							<ContextMenu name="СсылкаКлиентКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="СсылкаКлиентРасширеннаяПодсказка" id="33"/>
+						</LabelField>
+						<LabelField name="СсылкаОтветственный" id="34">
+							<DataPath>Список.Ref.Ответственный</DataPath>
+							<ContextMenu name="СсылкаОтветственныйКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="СсылкаОтветственныйРасширеннаяПодсказка" id="36"/>
+						</LabelField>
+					</ChildItems>
+				</ColumnGroup>
 			</ChildItems>
 		</Table>
 	</ChildItems>

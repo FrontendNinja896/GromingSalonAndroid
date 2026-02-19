@@ -15,12 +15,12 @@
 			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
 		</UsualGroup>
 		<Table name="Список" id="3">
+			<Representation>List</Representation>
 			<CommandBarLocation>None</CommandBarLocation>
 			<DefaultItem>true</DefaultItem>
 			<UseAlternationRowColor>true</UseAlternationRowColor>
 			<InitialTreeView>ExpandTopLevel</InitialTreeView>
 			<EnableStartDrag>true</EnableStartDrag>
-			<EnableDrag>true</EnableDrag>
 			<DataPath>Список</DataPath>
 			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
 			<AutoRefresh>false</AutoRefresh>
@@ -68,7 +68,7 @@
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 			</SearchControlAddition>
 			<ChildItems>
-				<ColumnGroup name="ПерваяКолонка" id="43">
+				<ColumnGroup name="ПерваяКолонка" id="37">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -81,49 +81,49 @@
 							<v8:content>Первая колонка</v8:content>
 						</v8:item>
 					</ToolTip>
-					<ExtendedTooltip name="ПерваяКолонкаРасширеннаяПодсказка" id="44"/>
+					<ExtendedTooltip name="ПерваяКолонкаРасширеннаяПодсказка" id="38"/>
 					<ChildItems>
-						<LabelField name="Код" id="19">
-							<DataPath>Список.Code</DataPath>
-							<ContextMenu name="КодКонтекстноеМеню" id="20"/>
-							<ExtendedTooltip name="КодРасширеннаяПодсказка" id="21"/>
-						</LabelField>
-						<LabelField name="Наименование" id="16">
-							<DataPath>Список.Description</DataPath>
+						<LabelField name="Период" id="16">
+							<DataPath>Список.Period</DataPath>
 							<DefaultItem>true</DefaultItem>
-							<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
-							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
+							<ContextMenu name="ПериодКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="18"/>
 						</LabelField>
-						<LabelField name="ТипКонтрагента" id="22">
-							<DataPath>Список.ТипКонтрагента</DataPath>
-							<ContextMenu name="ТипКонтрагентаКонтекстноеМеню" id="23"/>
-							<ExtendedTooltip name="ТипКонтрагентаРасширеннаяПодсказка" id="24"/>
+						<LabelField name="Регистратор" id="19">
+							<DataPath>Список.Recorder</DataPath>
+							<ContextMenu name="РегистраторКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="РегистраторРасширеннаяПодсказка" id="21"/>
 						</LabelField>
-						<LabelField name="КонтактныйТелефон" id="25">
-							<DataPath>Список.КонтактныйТелефон</DataPath>
-							<ContextMenu name="КонтактныйТелефонКонтекстноеМеню" id="26"/>
-							<ExtendedTooltip name="КонтактныйТелефонРасширеннаяПодсказка" id="27"/>
+						<LabelField name="Номенклатура" id="25">
+							<DataPath>Список.Номенклатура</DataPath>
+							<ContextMenu name="НоменклатураКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="НоменклатураРасширеннаяПодсказка" id="27"/>
 						</LabelField>
-						<LabelField name="ПолКлиента" id="31">
-							<DataPath>Список.ПолКлиента</DataPath>
-							<ContextMenu name="ПолКлиентаКонтекстноеМеню" id="32"/>
-							<ExtendedTooltip name="ПолКлиентаРасширеннаяПодсказка" id="33"/>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ВтораяКолонка" id="39">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вторая колонка</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ВтораяКолонкаРасширеннаяПодсказка" id="40"/>
+					<ChildItems>
+						<LabelField name="Сотрудник" id="28">
+							<DataPath>Список.Сотрудник</DataPath>
+							<ContextMenu name="СотрудникКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="30"/>
 						</LabelField>
-						<LabelField name="ДатаРождения" id="28">
-							<DataPath>Список.ДатаРождения</DataPath>
-							<ContextMenu name="ДатаРожденияКонтекстноеМеню" id="29"/>
-							<ExtendedTooltip name="ДатаРожденияРасширеннаяПодсказка" id="30"/>
+						<LabelField name="Клиент" id="31">
+							<DataPath>Список.Клиент</DataPath>
+							<ContextMenu name="КлиентКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="33"/>
 						</LabelField>
-						<LabelField name="ОсновнойДоговор" id="37">
-							<DataPath>Список.ОсновнойДоговор</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Договор</v8:content>
-								</v8:item>
-							</Title>
-							<ContextMenu name="ОсновнойДоговорКонтекстноеМеню" id="38"/>
-							<ExtendedTooltip name="ОсновнойДоговорРасширеннаяПодсказка" id="39"/>
+						<LabelField name="Сумма" id="34">
+							<DataPath>Список.Сумма</DataPath>
+							<ContextMenu name="СуммаКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="СуммаРасширеннаяПодсказка" id="36"/>
 						</LabelField>
 					</ChildItems>
 				</ColumnGroup>
@@ -139,7 +139,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<MainTable>Catalog.Контрагенты</MainTable>
+				<MainTable>AccumulationRegister.Продажи</MainTable>
 				<ListSettings>
 					<dcsset:filter>
 						<dcsset:viewMode>Normal</dcsset:viewMode>

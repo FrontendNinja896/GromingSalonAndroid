@@ -15,12 +15,12 @@
 			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
 		</UsualGroup>
 		<Table name="Список" id="3">
+			<Representation>List</Representation>
 			<CommandBarLocation>None</CommandBarLocation>
 			<DefaultItem>true</DefaultItem>
 			<UseAlternationRowColor>true</UseAlternationRowColor>
 			<InitialTreeView>ExpandTopLevel</InitialTreeView>
 			<EnableStartDrag>true</EnableStartDrag>
-			<EnableDrag>true</EnableDrag>
 			<DataPath>Список</DataPath>
 			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
 			<AutoRefresh>false</AutoRefresh>
@@ -68,20 +68,8 @@
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 			</SearchControlAddition>
 			<ChildItems>
-				<ColumnGroup name="ПерваяКолонка" id="43">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Первая колонка</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Первая колонка</v8:content>
-						</v8:item>
-					</ToolTip>
-					<ExtendedTooltip name="ПерваяКолонкаРасширеннаяПодсказка" id="44"/>
+				<ColumnGroup name="Группа1" id="40">
+					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="41"/>
 					<ChildItems>
 						<LabelField name="Код" id="19">
 							<DataPath>Список.Code</DataPath>
@@ -94,38 +82,41 @@
 							<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
 							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
 						</LabelField>
-						<LabelField name="ТипКонтрагента" id="22">
-							<DataPath>Список.ТипКонтрагента</DataPath>
-							<ContextMenu name="ТипКонтрагентаКонтекстноеМеню" id="23"/>
-							<ExtendedTooltip name="ТипКонтрагентаРасширеннаяПодсказка" id="24"/>
+						<LabelField name="НомерДоговораВнешний" id="25">
+							<DataPath>Список.НомерДоговораВнешний</DataPath>
+							<ContextMenu name="НомерДоговораВнешнийКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="НомерДоговораВнешнийРасширеннаяПодсказка" id="27"/>
 						</LabelField>
-						<LabelField name="КонтактныйТелефон" id="25">
-							<DataPath>Список.КонтактныйТелефон</DataPath>
-							<ContextMenu name="КонтактныйТелефонКонтекстноеМеню" id="26"/>
-							<ExtendedTooltip name="КонтактныйТелефонРасширеннаяПодсказка" id="27"/>
+						<LabelField name="Владелец" id="22">
+							<DataPath>Список.Owner</DataPath>
+							<ContextMenu name="ВладелецКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="24"/>
 						</LabelField>
-						<LabelField name="ПолКлиента" id="31">
-							<DataPath>Список.ПолКлиента</DataPath>
-							<ContextMenu name="ПолКлиентаКонтекстноеМеню" id="32"/>
-							<ExtendedTooltip name="ПолКлиентаРасширеннаяПодсказка" id="33"/>
+						<LabelField name="ДатаЗаключенияДоговора" id="28">
+							<DataPath>Список.ДатаЗаключенияДоговора</DataPath>
+							<ContextMenu name="ДатаЗаключенияДоговораКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="ДатаЗаключенияДоговораРасширеннаяПодсказка" id="30"/>
 						</LabelField>
-						<LabelField name="ДатаРождения" id="28">
-							<DataPath>Список.ДатаРождения</DataPath>
-							<ContextMenu name="ДатаРожденияКонтекстноеМеню" id="29"/>
-							<ExtendedTooltip name="ДатаРожденияРасширеннаяПодсказка" id="30"/>
+						<LabelField name="СрокДействияДоговора" id="31">
+							<DataPath>Список.СрокДействияДоговора</DataPath>
+							<ContextMenu name="СрокДействияДоговораКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="СрокДействияДоговораРасширеннаяПодсказка" id="33"/>
 						</LabelField>
-						<LabelField name="ОсновнойДоговор" id="37">
-							<DataPath>Список.ОсновнойДоговор</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Договор</v8:content>
-								</v8:item>
-							</Title>
-							<ContextMenu name="ОсновнойДоговорКонтекстноеМеню" id="38"/>
-							<ExtendedTooltip name="ОсновнойДоговорРасширеннаяПодсказка" id="39"/>
+						<CheckBoxField name="Бессрочный" id="34">
+							<DataPath>Список.Бессрочный</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="БессрочныйКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="БессрочныйРасширеннаяПодсказка" id="36"/>
+						</CheckBoxField>
+						<LabelField name="Комментарий" id="37">
+							<DataPath>Список.Комментарий</DataPath>
+							<ContextMenu name="КомментарийКонтекстноеМеню" id="38"/>
+							<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="39"/>
 						</LabelField>
 					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="Группа2" id="42">
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="43"/>
 				</ColumnGroup>
 			</ChildItems>
 		</Table>
@@ -139,7 +130,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<MainTable>Catalog.Контрагенты</MainTable>
+				<MainTable>Catalog.ДоговорыПоставщиков</MainTable>
 				<ListSettings>
 					<dcsset:filter>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
