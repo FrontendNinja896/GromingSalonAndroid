@@ -138,7 +138,7 @@
 		<Metadata name="Document.ПоступлениеТоваров.Form.ФормаСписка" id="fa93dafc-4008-4cae-ab8f-7adf0f7795da" configVersion="f8045445ee728f40a89b0ea20e64436800000000"/>
 		<Metadata name="Document.ПоступлениеТоваров.Form.ФормаСписка.Form" id="fa93dafc-4008-4cae-ab8f-7adf0f7795da.0" configVersion="e0435f2875883d46b9e9e5427516c2cf00000000"/>
 		<Metadata name="Document.ПоступлениеТоваров.ObjectModule" id="741dc7da-646e-4db2-931e-1049d8b5816d.0" configVersion="bbf715ebb093104e960fe126d56503f500000000"/>
-		<Metadata name="Document.РеализацияТоваровИУслуг" id="442a38b6-087e-40d5-876b-73b8cc30d5e4" configVersion="43497793ac490e4f9e34031a488ecd5200000000">
+		<Metadata name="Document.РеализацияТоваровИУслуг" id="442a38b6-087e-40d5-876b-73b8cc30d5e4" configVersion="5313bd8d8bd2a24ebc37eff51c372cbe00000000">
 			<Metadata name="Document.РеализацияТоваровИУслуг.Attribute.Комментарий" id="1e85fa5a-1489-4ba6-a46d-b334e4873b53"/>
 			<Metadata name="Document.РеализацияТоваровИУслуг.Attribute.Основание" id="2f4cb964-5091-4b67-8f44-ed453aedd05b"/>
 			<Metadata name="Document.РеализацияТоваровИУслуг.Attribute.Ответственный" id="38748458-63e1-4837-9323-a38c3353a3e5"/>
@@ -157,6 +157,8 @@
 		</Metadata>
 		<Metadata name="Document.РеализацияТоваровИУслуг.Form.ФормаДокумента" id="16875d68-8fb8-424a-af2f-d874183e9435" configVersion="170f47c59a1914448b4300f3ed7847dc00000000"/>
 		<Metadata name="Document.РеализацияТоваровИУслуг.Form.ФормаДокумента.Form" id="16875d68-8fb8-424a-af2f-d874183e9435.0" configVersion="4680680cdc0f4b43930d2e295b2b30f200000000"/>
+		<Metadata name="Document.РеализацияТоваровИУслуг.Form.ФормаСписка" id="7154f808-c708-40a1-a155-0102193b5580" configVersion="d132e3067d855045b65c49eeface6f5b00000000"/>
+		<Metadata name="Document.РеализацияТоваровИУслуг.Form.ФормаСписка.Form" id="7154f808-c708-40a1-a155-0102193b5580.0" configVersion="d6f17cd9a6d3c048a7528189cf8d700c00000000"/>
 		<Metadata name="Document.РеализацияТоваровИУслуг.ObjectModule" id="442a38b6-087e-40d5-876b-73b8cc30d5e4.0" configVersion="50aba038310fa74e843598292c965d1f00000000"/>
 		<Metadata name="DocumentJournal.ЖурналЗаписиКлиентов" id="86229b44-f09f-4ff0-907e-1fd1d4b5055b" configVersion="fea6515aca754744b8183266a5521c9f00000000"/>
 		<Metadata name="DocumentJournal.ЖурналЗаписиКлиентов.Form.ФормаСписка" id="e593162f-efca-4b5f-9d38-edd542ce4722" configVersion="80a1ee9d53550242a4004dd6862c139f00000000"/>

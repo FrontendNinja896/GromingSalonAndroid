@@ -214,7 +214,7 @@
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
 			<DefaultObjectForm>Document.РеализацияТоваровИУслуг.Form.ФормаДокумента</DefaultObjectForm>
-			<DefaultListForm/>
+			<DefaultListForm>Document.РеализацияТоваровИУслуг.Form.ФормаСписка</DefaultListForm>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryListForm/>
@@ -528,6 +528,7 @@
 				</Properties>
 			</Attribute>
 			<Form>ФормаДокумента</Form>
+			<Form>ФормаСписка</Form>
 			<TabularSection uuid="bc2706d0-3a08-44d6-a4b1-916c10db6cec">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.РеализацияТоваровИУслуг.Услуги" category="TabularSection">
