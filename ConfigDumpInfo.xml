@@ -99,7 +99,7 @@
 		<Metadata name="CommandGroup.Справочники" id="7c737579-d196-48d3-acb8-7419cf1a8c2b" configVersion="5ea3beb28dac7f488756b4892196b82f00000000"/>
 		<Metadata name="CommonForm.СкладскойУчёт" id="6aed3a65-5717-4b5e-9ed4-6a029570b733" configVersion="35c677e916f032479b4a493e7e9e1f4f00000000"/>
 		<Metadata name="CommonForm.СкладскойУчёт.Form" id="6aed3a65-5717-4b5e-9ed4-6a029570b733.0" configVersion="ff7c83d0031a844e9dc7cf227e5c581500000000"/>
-		<Metadata name="Configuration.Конфигурация" id="201a32b8-dd4c-42bd-a005-301829951253" configVersion="5b6712b6d0863940b20968d62b63b1cb00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="201a32b8-dd4c-42bd-a005-301829951253" configVersion="f63830ba1e3103428b9666e86b28ea8200000000"/>
 		<Metadata name="Configuration.Конфигурация.CommandInterface" id="ebc240bc-c7e2-4854-98f6-3787e95ac3ba.a" configVersion="f0e6d21a91f7ff418528a50f48b5d3da00000000"/>
 		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="ebc240bc-c7e2-4854-98f6-3787e95ac3ba.8" configVersion="7e80196c763f124f9a387d9a8a90e8b000000000"/>
 		<Metadata name="Configuration.Конфигурация.MainSectionCommandInterface" id="ebc240bc-c7e2-4854-98f6-3787e95ac3ba.9" configVersion="cd2e28e7e3da9e4fa1c7a7e0f083dd8a00000000"/>
@@ -151,8 +151,8 @@
 			<Metadata name="Document.РеализацияТоваровИУслуг.TabularSection.Товары.Attribute.Количество" id="f661ed64-4aed-4232-a3ad-ca5d2e12fab5"/>
 			<Metadata name="Document.РеализацияТоваровИУслуг.TabularSection.Товары" id="f6e67067-ac94-4790-9c9f-c3166ec12a4d"/>
 		</Metadata>
-		<Metadata name="Document.РеализацияТоваровИУслуг.Form.ФормаДокумента" id="16875d68-8fb8-424a-af2f-d874183e9435" configVersion="8b2c757d9537484ca851aecd0a845d6000000000"/>
-		<Metadata name="Document.РеализацияТоваровИУслуг.Form.ФормаДокумента.Form" id="16875d68-8fb8-424a-af2f-d874183e9435.0" configVersion="2139829b50e4aa4791c1d03ffdbadbf000000000"/>
+		<Metadata name="Document.РеализацияТоваровИУслуг.Form.ФормаДокумента" id="16875d68-8fb8-424a-af2f-d874183e9435" configVersion="170f47c59a1914448b4300f3ed7847dc00000000"/>
+		<Metadata name="Document.РеализацияТоваровИУслуг.Form.ФормаДокумента.Form" id="16875d68-8fb8-424a-af2f-d874183e9435.0" configVersion="4680680cdc0f4b43930d2e295b2b30f200000000"/>
 		<Metadata name="Document.РеализацияТоваровИУслуг.ObjectModule" id="442a38b6-087e-40d5-876b-73b8cc30d5e4.0" configVersion="50aba038310fa74e843598292c965d1f00000000"/>
 		<Metadata name="DocumentJournal.ЖурналЗаписиКлиентов" id="86229b44-f09f-4ff0-907e-1fd1d4b5055b" configVersion="fea6515aca754744b8183266a5521c9f00000000"/>
 		<Metadata name="DocumentJournal.ЖурналЗаписиКлиентов.Form.ФормаСписка" id="e593162f-efca-4b5f-9d38-edd542ce4722" configVersion="80a1ee9d53550242a4004dd6862c139f00000000"/>
