@@ -133,8 +133,8 @@
 			<Metadata name="Document.ПоступлениеТоваров.Attribute.ВходящаяДата" id="d941b300-ea47-43fc-8367-37e6900b9411"/>
 			<Metadata name="Document.ПоступлениеТоваров.Attribute.СуммаДокумента" id="db235198-843d-4d26-80b3-b9ceb2ab60e0"/>
 		</Metadata>
-		<Metadata name="Document.ПоступлениеТоваров.Form.ФормаДокумента" id="bb1f95ad-18d5-43b9-9231-aec01827a215" configVersion="33262e63c6244743a8fa7a1c3eef2bf200000000"/>
-		<Metadata name="Document.ПоступлениеТоваров.Form.ФормаДокумента.Form" id="bb1f95ad-18d5-43b9-9231-aec01827a215.0" configVersion="5d5d98f165cd7f41a704a75d2c87432400000000"/>
+		<Metadata name="Document.ПоступлениеТоваров.Form.ФормаДокумента" id="bb1f95ad-18d5-43b9-9231-aec01827a215" configVersion="6ad84e9fa744934fb52256fd1bb6884900000000"/>
+		<Metadata name="Document.ПоступлениеТоваров.Form.ФормаДокумента.Form" id="bb1f95ad-18d5-43b9-9231-aec01827a215.0" configVersion="be0be0f584162f4f86cffa2c923546cd00000000"/>
 		<Metadata name="Document.ПоступлениеТоваров.ObjectModule" id="741dc7da-646e-4db2-931e-1049d8b5816d.0" configVersion="bbf715ebb093104e960fe126d56503f500000000"/>
 		<Metadata name="Document.РеализацияТоваровИУслуг" id="442a38b6-087e-40d5-876b-73b8cc30d5e4" configVersion="e2ab9ea719e8ae498d8dbb20fc9e319600000000">
 			<Metadata name="Document.РеализацияТоваровИУслуг.Attribute.Комментарий" id="1e85fa5a-1489-4ba6-a46d-b334e4873b53"/>
