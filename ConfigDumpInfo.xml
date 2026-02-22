@@ -115,7 +115,9 @@
 		<Metadata name="CommandGroup.Справочники" id="7c737579-d196-48d3-acb8-7419cf1a8c2b" configVersion="5ea3beb28dac7f488756b4892196b82f00000000"/>
 		<Metadata name="CommonForm.СкладскойУчёт" id="6aed3a65-5717-4b5e-9ed4-6a029570b733" configVersion="35c677e916f032479b4a493e7e9e1f4f00000000"/>
 		<Metadata name="CommonForm.СкладскойУчёт.Form" id="6aed3a65-5717-4b5e-9ed4-6a029570b733.0" configVersion="ff7c83d0031a844e9dc7cf227e5c581500000000"/>
-		<Metadata name="Configuration.ГрумингСалон" id="201a32b8-dd4c-42bd-a005-301829951253" configVersion="51e54a330c37d7499e06ad60b017124900000000"/>
+		<Metadata name="CommonModule.ИзменениеСтоимости" id="8c3ae213-e058-4119-bdfa-26a543b7cd31" configVersion="59a2d7bb1b0d7c4ea5e2aaa468bd0ad500000000"/>
+		<Metadata name="CommonModule.ИзменениеСтоимости.Module" id="8c3ae213-e058-4119-bdfa-26a543b7cd31.0" configVersion="4a61e6aa80c48c4c96accc0b57dfa97000000000"/>
+		<Metadata name="Configuration.ГрумингСалон" id="201a32b8-dd4c-42bd-a005-301829951253" configVersion="c49e51e59f780047b469623be688c4a300000000"/>
 		<Metadata name="Configuration.ГрумингСалон.CommandInterface" id="ebc240bc-c7e2-4854-98f6-3787e95ac3ba.a" configVersion="f0e6d21a91f7ff418528a50f48b5d3da00000000"/>
 		<Metadata name="Configuration.ГрумингСалон.HomePageWorkArea" id="ebc240bc-c7e2-4854-98f6-3787e95ac3ba.8" configVersion="7e80196c763f124f9a387d9a8a90e8b000000000"/>
 		<Metadata name="Configuration.ГрумингСалон.Logo" id="ebc240bc-c7e2-4854-98f6-3787e95ac3ba.1" configVersion="fe2a6771726dbf4e8716951c87347b4200000000"/>

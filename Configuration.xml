@@ -264,6 +264,7 @@
 			<Subsystem>Продажи</Subsystem>
 			<Subsystem>Персонал</Subsystem>
 			<Subsystem>Настройки</Subsystem>
+			<CommonModule>ИзменениеСтоимости</CommonModule>
 			<FunctionalOption>СкладскойУчёт</FunctionalOption>
 			<DefinedType>Финансы</DefinedType>
 			<CommandGroup>Персонал</CommandGroup>
