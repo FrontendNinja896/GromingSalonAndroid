@@ -208,11 +208,15 @@
 			<Metadata name="Enum.ТипыОрганизаций.EnumValue.ЮридическоеЛицо" id="cf5bee4c-077a-4edf-9649-91eeede78614"/>
 		</Metadata>
 		<Metadata name="FunctionalOption.СкладскойУчёт" id="4e530cf6-ed17-4e03-bb2e-838d5d15094e" configVersion="7e92144765cc4c48bb25de3cc91f246e00000000"/>
-		<Metadata name="InformationRegister.ЦеныНоменклатуры" id="1b560d8c-e856-4ba6-8ba3-b545d3e25ba3" configVersion="fd168ec3feed9e499cf9e28283743c5900000000">
+		<Metadata name="InformationRegister.ЦеныНоменклатуры" id="1b560d8c-e856-4ba6-8ba3-b545d3e25ba3" configVersion="4243d615d9849d4f8bbd284cf3ce063600000000">
 			<Metadata name="InformationRegister.ЦеныНоменклатуры.Dimension.ВидЦены" id="0a6bdb63-f5d4-41bf-a636-33aeb2dd1799"/>
 			<Metadata name="InformationRegister.ЦеныНоменклатуры.Dimension.Номенклатура" id="30b7300a-e7dc-437e-801c-2dc4998af09d"/>
 			<Metadata name="InformationRegister.ЦеныНоменклатуры.Resource.Цена" id="a550859a-b54f-4290-9ef0-496e063a374c"/>
 		</Metadata>
+		<Metadata name="InformationRegister.ЦеныНоменклатуры.Form.ФормаЗаписи" id="9f1759f7-9e14-4990-8657-83457c52e3df" configVersion="2b859c28080cb840a684d80d8aceefe000000000"/>
+		<Metadata name="InformationRegister.ЦеныНоменклатуры.Form.ФормаЗаписи.Form" id="9f1759f7-9e14-4990-8657-83457c52e3df.0" configVersion="47370a635ca9da40afe0acfb5493e07b00000000"/>
+		<Metadata name="InformationRegister.ЦеныНоменклатуры.Form.ФормаСписка" id="e8393342-43ed-4f05-b431-1a7bb1c1e637" configVersion="77cd3c4fa85ab44bae4b055bb321502e00000000"/>
+		<Metadata name="InformationRegister.ЦеныНоменклатуры.Form.ФормаСписка.Form" id="e8393342-43ed-4f05-b431-1a7bb1c1e637.0" configVersion="df564bceba239640b0b2ff1eec260fdd00000000"/>
 		<Metadata name="Language.Русский" id="41ea2d21-783e-4361-95f2-fcd13a1ae0ce" configVersion="0845bf431d49534baa5e950d1bbc1fe400000000"/>
 		<Metadata name="Subsystem.Настройки" id="5f15e33d-775e-4e2d-9676-0a39a2250997" configVersion="ecddf9275beb914aa036bcf386b6c34b00000000"/>
 		<Metadata name="Subsystem.Настройки.CommandInterface" id="5f15e33d-775e-4e2d-9676-0a39a2250997.1" configVersion="427cff651edbe24d8544c4d9c4b1b01f00000000"/>
